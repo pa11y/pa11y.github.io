@@ -1,6 +1,21 @@
 ---
 ---
 
+// NOTE: all these styles are temporary! When somebody
+// actually comes along and designs this site, they
+// should most likely tear this all down.
+
+@import "vendor/normalize";
+
 body {
-	font-family: sans-serif;
+	padding: 20px;
+}
+
+.site-navigation {
+	list-style: none;
+	padding-left: 0;
+}
+
+.site-navigation__item--current a {
+	background-color: #ff0;
 }

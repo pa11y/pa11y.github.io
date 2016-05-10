@@ -8,4 +8,10 @@ permalink: /
 Pa11y
 =====
 
-Hello World!
+**:warning: This page is not complete yet :warning:**
+
+  - Mission statement etc
+  - Overview/list of the projects
+  - Links to blog posts
+  - Links to documentation
+  - Helpful way to decide whether CLI/Dashboard is best for you

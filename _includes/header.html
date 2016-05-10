@@ -3,4 +3,42 @@
 
 	<a href="/">Pa11y</a>
 
+	<nav role="navigation">
+		<ul class="site-navigation">
+
+			<li class="site-navigation__item {% if page.url == '/contributing/' %}site-navigation__item--current{% endif %}">
+				<a href="/contributing/">
+					Contributing
+				</a>
+			</li>
+
+			<li class="site-navigation__item {% if page.url == '/contributing/code-of-conduct/' %}site-navigation__item--current{% endif %}">
+				<a href="/contributing/code-of-conduct/">
+					Code of Conduct
+				</a>
+			</li>
+
+			<li class="site-navigation__item {% if page.url == '/contributing/communications/' %}site-navigation__item--current{% endif %}">
+				<a href="/contributing/communications/">
+					Communications
+				</a>
+			</li>
+
+			<li class="site-navigation__item {% if page.url == '/contributing/designers/' %}site-navigation__item--current{% endif %}">
+				<a href="/contributing/designers/">
+					Designers
+				</a>
+			</li>
+
+			<li class="site-navigation__item {% if page.url == '/contributing/developers/' %}site-navigation__item--current{% endif %}">
+				<a href="/contributing/developers/">
+					Developers
+				</a>
+			</li>
+
+		</ul>
+	</nav>
+
 </header>
+
+<hr/>
