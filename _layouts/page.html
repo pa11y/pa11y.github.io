@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+	<!-- Page meta-information -->
+	<meta charset="utf-8"/>
+	<title>{{page.title}}</title>
+	<meta name="description" content="{{page.description}}"/>
+	{% if page.sitemap == false %}<meta name="robots" content="noindex"/>{% endif %}
+
+	<!-- Site links -->
+	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
+	<link rel="canonical" href="{{site.github.url}}{{ page.url | replace: 'index.html', '' }}"/>
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width"/>
+	<!--[if gt IE 8]><!--><link rel="stylesheet" href="/asset/style/site.css"/><!--<![endif]-->
+	<link rel="icon" href="/favicon.png" type="image/png"/>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+
+</head>
+<body>
+
+	{% include header.html %}
+
+	<main role="main" class="page__content">
+		{{content}}
+	</main>
+
+	{% include footer.html %}
+
+</body>
+</html>
