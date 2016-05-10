@@ -2,7 +2,7 @@
 The Pa11y Website (WIP)
 =======================
 
-The Pa11y website is build with [Jekyll] and hosted on GitHub Pages. <http://pa11y.github.io/>.
+The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa11y.github.io/>.
 
 
 Running Locally
