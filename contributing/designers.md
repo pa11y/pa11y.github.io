@@ -5,8 +5,7 @@ permalink: /contributing/designers/
 ---
 
 
-Designers
-=========
+# Designers
 
 **:warning: This page is not complete yet :warning:**
 

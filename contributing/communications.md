@@ -5,8 +5,7 @@ permalink: /contributing/communications/
 ---
 
 
-Communications
-==============
+# Communications
 
 **:warning: This page is not complete yet :warning:**
 

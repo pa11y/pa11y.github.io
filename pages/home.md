@@ -5,8 +5,7 @@ permalink: /
 ---
 
 
-Pa11y
-=====
+# Pa11y
 
 **:warning: This page is not complete yet :warning:**
 

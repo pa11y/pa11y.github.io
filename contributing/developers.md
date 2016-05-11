@@ -5,8 +5,7 @@ permalink: /contributing/developers/
 ---
 
 
-Developers
-==========
+# Developers
 
 **:warning: This page is not complete yet :warning:**
 
@@ -16,8 +15,7 @@ Developers
   - Code style
 
 
-Testing
--------
+## Testing
 
 Pa11y projects should always be well tested and consider code quality/consistenct. Pa11y projects normally use the following tools for this:
 

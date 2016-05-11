@@ -5,8 +5,7 @@ permalink: /contributing/
 ---
 
 
-Contributing
-============
+# Contributing
 
 **:warning: This page is not complete yet :warning:**
 

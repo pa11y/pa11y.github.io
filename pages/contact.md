@@ -5,8 +5,7 @@ permalink: /contact/
 ---
 
 
-Pa11y
-=====
+# Contact Team Pa11y
 
 **:warning: This page is not complete yet :warning:**
 
