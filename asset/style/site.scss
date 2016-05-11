@@ -7,7 +7,7 @@
 
 @import "vendor/normalize";
 
-// Tweak `pre` styles to work on mobile
+// Type tweaks just for better reading
 pre {
 	overflow: auto;
 }
@@ -17,6 +17,17 @@ pre {
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+// Construction notice
+.construction-notice {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #ffc;
+}
+.construction-notice__content {
+	margin: 0;
+	font-size: 14px;
 }
 
 // Site navigation
@@ -30,4 +41,9 @@ pre {
 }
 .site-navigation__item--current > a {
 	background-color: #ff0;
+}
+
+// Emoji (because you know I've got my priorities straight)
+.emoji {
+	vertical-align: bottom;
 }
