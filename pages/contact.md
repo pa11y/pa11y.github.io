@@ -13,6 +13,12 @@ You can contact any one of the core team below for any Pa11y-related issue, this
   - If you wish to discuss an issue before taking it public
   - If you need to report a violation of [our code of conduct][code-of-conduct]
 
+If you don't wish to contact an individual team member, you can reach us here:
+
+  - Email the team **:construction:TODO:construction:**
+  - [@pa11yorg on Twitter][pa11y-twitter]
+  - [@pa11y on GitHub][pa11y-github]
+
 
 ## Team Members
 
@@ -29,3 +35,5 @@ members are stored in `_data/team.yml`.
 
 
 [code-of-conduct]: /contributing/code-of-conduct/
+[pa11y-github]: https://github.com/pa11y
+[pa11y-twitter]: https://twitter.com/pa11yorg
