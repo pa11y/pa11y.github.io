@@ -9,6 +9,8 @@ permalink: /contributing/developers/
 
 **:warning: This page is not complete yet :warning:**
 
+  - Reporting bugs
+  - Requesting features
   - [Testing](#testing)
   - Releasing/versioning
   - Libraries/tools
