@@ -8,6 +8,9 @@
 @import "vendor/normalize";
 
 // Type tweaks just for better reading
+body {
+	line-height: 1.4;
+}
 pre {
 	overflow: auto;
 }
@@ -30,6 +33,13 @@ pre {
 	font-size: 14px;
 }
 
+// Site header
+.site-header {
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 2px dotted #ccc;
+}
+
 // Site navigation
 .site-navigation {
 	list-style: none;
@@ -41,6 +51,13 @@ pre {
 }
 .site-navigation__item--current > a {
 	background-color: #ff0;
+}
+
+// Site footer
+.site-footer {
+	margin-top: 40px;
+	padding-top: 10px;
+	border-top: 2px dotted #ccc;
 }
 
 // Emoji (because you know I've got my priorities straight)
