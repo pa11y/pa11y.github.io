@@ -13,6 +13,14 @@ Running Locally
   3. Visit <http://localhost:4000/>
 
 
+Editing This Site
+-----------------
+
+### Contact Page
+
+The contact page text content can be found in [`pages/contact.md`](pages/contact.md). To add your contact details to this page, edit [`_data/team.yml`](_data/team.yml); there are instructions at the top of this file.
+
+
 Licence
 -------
 

@@ -1,0 +1,43 @@
+
+<ul>
+	{% for team_member in site.data.team %}
+		<li>
+
+			<h3>{{team_member.name}}</h3>
+			<p>{{team_member.role}}</p>
+
+			{% if team_member.avatar %}
+				<img src="http://www.gravatar.com/avatar/{{team_member.avatar}}?s=100" alt="{{team_member.name}}"/>
+			{% endif %}
+
+			<ul>
+
+				{% if team_member.email %}
+					<li>
+						<a href="mailto:{{team_member.email}}?subject=Pa11y">
+							Email {{team_member.name}}
+						</a>
+					</li>
+				{% endif %}
+
+				{% if team_member.twitter %}
+					<li>
+						<a href="https://twitter.com/{{team_member.twitter}}">
+							@{{team_member.twitter}} on Twitter
+						</a>
+					</li>
+				{% endif %}
+
+				{% if team_member.github %}
+					<li>
+						<a href="https://github.com/{{team_member.github}}">
+							@{{team_member.github}} on GitHub
+						</a>
+					</li>
+				{% endif %}
+
+			</ul>
+
+		</li>
+	{% endfor %}
+</ul>
