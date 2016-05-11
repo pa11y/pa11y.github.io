@@ -1,0 +1,29 @@
+#
+# This file is used to keep information on the Pa11y team.
+# It's also used to render the contact page.
+#
+# Add yourself below, using the following properties (this file
+# is a YAML array of objects). Please never add somebody else's
+# contact details without their express permission.
+#
+# name (required):    Your full name (or pseudonym if you prefer)
+# role (required):    Your role in the Pa11y team
+# avatar (optional):  An MD5 hash of your email address (see below)
+# email (optional):   An email address for Pa11y-related contact
+# twitter (optional): Your Twitter handle
+# github (optional):  Your GitHub username
+#
+# Note: while email, twitter, and github are optional, you should
+# include at least one if you want to appear on the contact page.
+#
+# Note: we use Gravatar for avatars. Gravatar requires an MD5 hash
+# of your email address to find your image. See this guide for more
+# information: https://en.gravatar.com/site/implement/hash/
+#
+
+- name: Rowan Manning
+  role: Core Contributor
+  avatar: 9b617fb7c0a590faf58a516324ff53e2
+  email: info@rowanmanning.com
+  twitter: rowanmanning
+  github: rowanmanning
