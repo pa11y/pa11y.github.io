@@ -16,6 +16,11 @@ body {
 	padding-left: 0;
 }
 
-.site-navigation__item--current a {
+.site-navigation__subnav {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.site-navigation__item--current > a {
 	background-color: #ff0;
 }
