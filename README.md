@@ -8,7 +8,9 @@ The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa1
 Running Locally
 ---------------
 
-  1. Install dependencies using [Bundler]: `bundle install`
+You'll need [Ruby], [Bundler] and [Node.js] installed for this.
+
+  1. Install dependencies: `make install`
   2. Build and serve the site: `make serve`
   3. Visit <http://localhost:4000/>
 
@@ -40,3 +42,5 @@ Copyright &copy; 2016, Team Pa11y.
 [bundler]: http://bundler.io/
 [contributor-covenant]: http://contributor-covenant.org
 [jekyll]: http://jekyllrb.com/
+[node.js]: https://nodejs.org/
+[ruby]: https://www.ruby-lang.org/en/

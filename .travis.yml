@@ -1,0 +1,22 @@
+
+# Run with Node.js 4
+language: node_js
+node_js:
+  - '4'
+
+# Restrict builds on branches
+branches:
+  only:
+    - master
+
+# Installation
+before_install:
+  - rvm install 2.2.2
+install:
+  - make install
+
+# Build script
+script:
+  - make serve &
+  - sleep 5
+  - make test
