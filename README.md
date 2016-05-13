@@ -31,6 +31,16 @@ The contributor guides live in the [`contributing` folder](contributing), these 
 The contact page text content can be found in [`pages/contact.md`](pages/contact.md). To add your contact details to this page, edit [`_data/team.yml`](_data/team.yml); there are instructions at the top of this file.
 
 
+Testing
+-------
+
+Every page on this site is tested with Pa11y on CI. Pull requests will fail the build if they introduce accessibility errors. You can run Pa11y against a site that's running locally with:
+
+```
+make test
+```
+
+
 Licence
 -------
 
