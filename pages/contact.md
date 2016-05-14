@@ -15,7 +15,7 @@ You can contact any one of the core team below for any Pa11y-related issue, this
 
 If you don't wish to contact an individual team member, you can reach us here:
 
-  - Email the team :construction: TODO
+  - [Join us on Slack][pa11y-slack]
   - [@pa11yorg on Twitter][pa11y-twitter]
   - [@pa11y on GitHub][pa11y-github]
 
@@ -36,4 +36,5 @@ members are stored in `_data/team.yml`.
 
 [code-of-conduct]: /contributing/code-of-conduct/
 [pa11y-github]: https://github.com/pa11y
+[pa11y-slack]: https://pa11y-slack.herokuapp.com/
 [pa11y-twitter]: https://twitter.com/pa11yorg
