@@ -15,7 +15,7 @@ You can contact any one of the core team below for any Pa11y-related issue, this
 
 If you don't wish to contact an individual team member, you can reach us here:
 
-  - Email the team **:construction:TODO:construction:**
+  - Email the team :construction: TODO
   - [@pa11yorg on Twitter][pa11y-twitter]
   - [@pa11y on GitHub][pa11y-github]
 

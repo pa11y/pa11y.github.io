@@ -7,8 +7,23 @@ permalink: /contributing/designers/
 
 # Designers
 
-**:warning: This page is not complete yet :warning:**
+Hello. Would you like to help us out with brand and design? Pa11y hasn't had loads of attention in this area and we'd love you to join us. It's time to bring some thought and consistency to our project designs :art:
 
-  - The Pa11y brand
-  - Design guidelines
-  - Logo/resource downloads
+  - [The Pa11y Brand](#the-pa11y-brand)
+  - [Design Guidelines](#design-guidelines)
+  - [Resources](#resources)
+
+
+## The Pa11y Brand
+
+:construction: TODO introduction to the branding
+
+
+## Design Guidelines
+
+:construction: TODO more in-depth design guidelines
+
+
+## Resources
+
+:construction: TODO logo/resource downloads
