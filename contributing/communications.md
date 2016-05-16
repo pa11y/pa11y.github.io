@@ -7,7 +7,7 @@ permalink: /contributing/communications/
 
 # Communications
 
-Hello, so you you're interested in helping out with our communications? We're pretty pleased about that. This guide covers general writing style as well as everything you need to start talking to our users on [GitHub](#github) and [Twitter](#twitter). We also cover how to [respond to Code of Conduct issues](#code-of-conduct).
+Hello, so you're interested in helping out with our communications? We're pretty pleased about that. This guide covers general writing style as well as everything you need to start talking to our users on [GitHub](#github) and [Twitter](#twitter). We also cover how to [respond to Code of Conduct issues](#code-of-conduct).
 
   - [Writing Style](#writing-style)
   - [GitHub](#github)
@@ -37,7 +37,7 @@ Our contributors are amazing – they're giving up their time to make the web as
 
 ### Even in Documentation
 
-We're not saying that the documentation should read like a conversation, that would probably be really jarring and unhelpful when decribing technical things. However introductions and any signposting should be friendly and helpful.
+We're not saying that the documentation should read like a conversation, that would probably be really jarring and unhelpful when describing technical things. However introductions and any signposting should be friendly and helpful.
 
 
 ## GitHub
