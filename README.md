@@ -2,6 +2,8 @@
 The Pa11y Website (WIP)
 =======================
 
+[![Join the chat at https://gitter.im/pa11y/pa11y.github.io](https://badges.gitter.im/pa11y/pa11y.github.io.svg)](https://gitter.im/pa11y/pa11y.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa11y.github.io/>.
 
 [![Site Accessibility Tests](https://img.shields.io/travis/pa11y/pa11y.github.io.svg?label=site%20accessibility%20tests)](https://travis-ci.org/pa11y/pa11y.github.io)
