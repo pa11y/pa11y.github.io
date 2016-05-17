@@ -7,14 +7,49 @@ permalink: /contributing/developers/
 
 # Developers
 
-**:warning: This page is not complete yet :warning:**
+So you'd like to contribute some code, report a bug, or request a feature? You're in the right place! This guide covers a lot of the basics of starting to contribute back to Pa11y.
 
-  - Reporting bugs
-  - Requesting features
+  - [Reporting Bugs](#reporting-bugs)
+  - [Requesting Features](#requesting-features)
+  - [Opening a Pull Request](#opening-a-pull-request)
+  - [Code Style](#code-style)
   - [Testing](#testing)
-  - Releasing/versioning
-  - Libraries/tools
-  - Code style
+  - [Releasing/Versioning](#releasingversioning)
+
+
+## Reporting Bugs
+
+We like it when people report bugs in our projects, and would definitely rather _know_ about them than be left in the dark. We use GitHub issues for bug tracking. When filing a bug report, there are some guidelines you can follow which will help us quickly resolve your issue:
+
+  - **Check if the bug has already been reported**
+    You can do this by searching the repository. This gives us more time to focus on existing bugs, and it might help you find a solution more quickly.
+
+  - **Make sure your software is up to date**
+    It may be that your bug has already been fixed in a newer version.
+
+  - **Provide steps to reproduce**
+    Your bug will generally get fixed much more quickly if you provide clear steps to reproduce the problem. This should include the version numbers of any relevant software. If you don't provide this, then it'll almost certainly be our first question :smile:
+
+  - **Write a failing test**
+    This is not _required_ to file a bug report, but we'll love you if you add one! Writing a failing [unit or integration test](#testing) and opening a pull request will help us quickly locate the issue.
+
+  - **Open multiple bug reports**
+    If you have multiple different bugs, it's best to open each as a separate GitHub issue.
+
+
+## Requesting Features
+
+:construction: TODO
+
+
+## Opening a Pull Request
+
+:construction: TODO
+
+
+## Code Style
+
+:construction: TODO very brief code style guidelines
 
 
 ## Testing
@@ -58,6 +93,11 @@ make test     # Run all of the tests (unit, integration, coverage)
 make verify   # Run linters (`make lint` also acceptable in legacy projects)
 make ci       # Alias to `make lint test`
 ```
+
+
+## Releasing/Versioning
+
+:construction: TODO guide for core contributors who have the ability to release
 
 
 
