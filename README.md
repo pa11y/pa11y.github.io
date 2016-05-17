@@ -24,6 +24,10 @@ Editing This Site
 
 The home page text content can be found in [`pages/home.md`](pages/home.md).
 
+### Projects Page
+
+The projects page text content can be found in [`pages/projects.md`](pages/projects.md). The actual project list is automatically generated from the organisation repo list.
+
 ### Contributor Guides
 
 The contributor guides live in the [`contributing` folder](contributing), these pages are Markdown files. Edit the others at will, but the Code of Conduct should not be edited – we use the [Contributor Covenant][contributor-covenant] without modifications.

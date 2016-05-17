@@ -18,6 +18,8 @@ Pa11y aims to improve the accessibility of the web through better tooling and au
   - **[Pa11y Webservice]:**<br/>
     The JSON-based webservice that backs Pa11y Dashboard. Useful if you want to build your own dashboard-like front end, or repurpose the data.
 
+  - **[and many more...][projects]**
+
 
 ## Articles
 
@@ -37,3 +39,4 @@ If you're interested in helping us out, we'd love to hear from you. Head on over
 [pa11y cli]: https://github.com/springernature/pa11y
 [pa11y dashboard]: https://github.com/springernature/pa11y-dashboard
 [pa11y webservice]: https://github.com/springernature/pa11y-webservice
+[projects]: /projects/

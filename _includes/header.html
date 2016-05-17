@@ -15,6 +15,12 @@
 	<nav role="navigation">
 		<ul class="site-navigation">
 
+			<li class="site-navigation__item {% if page.url == '/projects/' %}site-navigation__item--current{% endif %}">
+				<a href="/projects/">
+					Projects
+				</a>
+			</li>
+
 			<li class="site-navigation__item {% if page.url == '/contributing/' %}site-navigation__item--current{% endif %}">
 				<a href="/contributing/">
 					Contributing
