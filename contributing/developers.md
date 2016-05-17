@@ -77,10 +77,10 @@ We provide standard configuration files which can be easily copied into Pa11y pr
 Copy these files into your project, and see the section on [build tools](#build-tools) for information on how to verify that they pass:
 
 ```sh
-curl {{site.github.url}}/contributing/developers/resources/editorconfig > .editorconfig
-curl {{site.github.url}}/contributing/developers/resources/jscsrc > .jscsrc
-curl {{site.github.url}}/contributing/developers/resources/jshintignore > .jshintignore
-curl {{site.github.url}}/contributing/developers/resources/jshintrc > .jshintrc
+curl {{site.github.url}}/resources/development/editorconfig > .editorconfig
+curl {{site.github.url}}/resources/development/jscsrc > .jscsrc
+curl {{site.github.url}}/resources/development/jshintignore > .jshintignore
+curl {{site.github.url}}/resources/development/jshintrc > .jshintrc
 ```
 
 ### Build Tools
