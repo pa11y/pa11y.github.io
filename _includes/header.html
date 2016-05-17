@@ -18,6 +18,12 @@
 	<nav role="navigation">
 		<ul class="site-navigation">
 
+			<li class="site-navigation__item {% if page.url == '/' %}site-navigation__item--current{% endif %}">
+				<a href="/">
+					Home
+				</a>
+			</li>
+
 			<li class="site-navigation__item {% if page.url == '/projects/' %}site-navigation__item--current{% endif %}">
 				<a href="/projects/">
 					Projects
