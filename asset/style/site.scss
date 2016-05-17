@@ -7,12 +7,39 @@
 
 @import "vendor/normalize";
 
+
+// Config
+// ------
+
+$c-blue: #3498db;
+$c-blue-dark: darken($c-blue, 20%);
+
+$c-grey: #6c7878;
+
+$c-purple: #8a34db;
+$c-purple-dark: darken($c-purple, 20%);
+
+$c-red: #e74c3c;
+
+$c-yellow: #f39c12;
+$c-yellow-light: lighten($c-yellow, 35%);
+
+
+// Site Styles
+// -----------
+
 // Type tweaks just for better reading
 body {
 	line-height: 1.4;
 }
 pre {
 	overflow: auto;
+}
+a {
+	color: $c-blue-dark;
+}
+a:visited {
+	color: $c-purple-dark;
 }
 
 // Page width/positioning
@@ -26,7 +53,7 @@ pre {
 .construction-notice {
 	margin-bottom: 20px;
 	padding: 10px;
-	background-color: #ffc;
+	background-color: $c-yellow-light;
 }
 .construction-notice__content {
 	margin: 0;
@@ -66,7 +93,7 @@ pre {
 	padding-left: 20px;
 }
 .site-navigation__item--current > a {
-	background-color: #ff0;
+	background-color: $c-yellow-light;
 }
 
 // Site footer
