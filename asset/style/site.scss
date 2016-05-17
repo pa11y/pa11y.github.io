@@ -40,6 +40,22 @@ pre {
 	border-bottom: 2px dotted #ccc;
 }
 
+// Site branding
+.site-brand {
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	color: inherit;
+}
+.site-brand__logo,
+.site-brand__name {
+	vertical-align: middle;
+}
+.site-brand__logo {
+	width: 30px;
+	height: 30px;
+}
+
 // Site navigation
 .site-navigation {
 	list-style: none;
