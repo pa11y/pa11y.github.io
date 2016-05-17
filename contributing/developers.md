@@ -21,19 +21,19 @@ So you'd like to contribute some code, report a bug, or request a feature? You'r
 
 We like it when people report bugs in our projects, and would definitely rather _know_ about them than be left in the dark. We use GitHub issues for bug tracking. When filing a bug report, there are some guidelines you can follow which will help us quickly resolve your issue:
 
-  - **Check if the bug has already been reported**
+  - **Check if the bug has already been reported:**<br/>
     You can do this by searching the repository. This gives us more time to focus on existing bugs, and it might help you find a solution more quickly.
 
-  - **Make sure your software is up to date**
+  - **Make sure your software is up to date:**<br/>
     It may be that your bug has already been fixed in a newer version.
 
-  - **Provide steps to reproduce**
+  - **Provide steps to reproduce:**<br/>
     Your bug will generally get fixed much more quickly if you provide clear steps to reproduce the problem. This should include the version numbers of any relevant software. If you don't provide this, then it'll almost certainly be our first question :smile:
 
-  - **Write a failing test**
+  - **Write a failing test:**<br/>
     This is not _required_ to file a bug report, but we'll love you if you add one! Writing a failing [unit or integration test](#testing) and opening a pull request will help us quickly locate the issue.
 
-  - **Open multiple bug reports**
+  - **Open multiple bug reports:**<br/>
     If you have multiple different bugs, it's best to open each as a separate GitHub issue.
 
 

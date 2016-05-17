@@ -24,10 +24,6 @@ gems:
   - jekyll-sitemap
   - jemoji
 
-# Kramdown config
-kramdown:
-  input: GFM
-
 # Sass compilation
 sass:
   sass_dir: asset/style
