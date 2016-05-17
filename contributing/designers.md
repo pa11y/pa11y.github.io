@@ -26,4 +26,7 @@ Hello. Would you like to help us out with brand and design? Pa11y hasn't had loa
 
 ## Resources
 
-:construction: TODO logo/resource downloads
+The Pa11y logo is available for download in both PNG and SVG formats:
+
+  - <a href="/resources/brand/logo.png" download="Pa11y Logo">Pa11y logo PNG</a>
+  - <a href="/resources/brand/logo.svg" download="Pa11y Logo">Pa11y logo SVG</a>
