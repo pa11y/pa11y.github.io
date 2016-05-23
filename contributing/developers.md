@@ -193,7 +193,7 @@ All of our projects are versioned using [Semantic Versioning] (except for this s
 [mocha]: https://mochajs.org/
 [mockery]: https://github.com/mfncooper/mockery
 [npm]: https://www.npmjs.com/
-[pa11y-tests]: https://github.com/springernature/pa11y/tree/master/test/unit
+[pa11y-tests]: https://github.com/pa11y/pa11y/tree/master/test/unit
 [proclaim]: https://github.com/rowanmanning/proclaim
 [reference-links]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 [sinon]: http://sinonjs.org/
