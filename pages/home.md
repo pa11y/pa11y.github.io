@@ -36,7 +36,7 @@ If you're interested in helping us out, we'd love to hear from you. Head on over
 
 
 [contributors]: /contributing/
-[pa11y cli]: https://github.com/springernature/pa11y
-[pa11y dashboard]: https://github.com/springernature/pa11y-dashboard
-[pa11y webservice]: https://github.com/springernature/pa11y-webservice
+[pa11y cli]: https://github.com/pa11y/pa11y
+[pa11y dashboard]: https://github.com/pa11y/pa11y-dashboard
+[pa11y webservice]: https://github.com/pa11y/pa11y-webservice
 [projects]: /projects/
