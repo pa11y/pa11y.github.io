@@ -11,10 +11,23 @@
 // Config
 // ------
 
+$font-size: 16px;
+$font-size-small: 14px;
+
+$font-family: Arial, Helvetica, sans-serif;
+$font-family-mono: Courier, "Courier New", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+$spacing: 20px;
+$spacing-small: 10px;
+$spacing-large: 40px;
+$spacing-rule: 2px;
+
 $c-blue: #3498db;
 $c-blue-dark: darken($c-blue, 20%);
 
 $c-grey: #6c7878;
+$c-grey-light: #ddd;
+$c-grey-dark: #222;
 
 $c-purple: #8a34db;
 $c-purple-dark: darken($c-purple, 20%);
@@ -28,49 +41,51 @@ $c-yellow-light: lighten($c-yellow, 35%);
 // Site Styles
 // -----------
 
-// Type tweaks just for better reading
-body {
-	line-height: 1.4;
+@import "typography";
+
+// Clearfix mixin
+@mixin clearfix {
+	&:after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
 }
-pre {
-	overflow: auto;
-}
-a {
-	color: $c-blue-dark;
-}
-a:visited {
-	color: $c-purple-dark;
+.clearfix {
+	@include clearfix;
 }
 
 // Page width/positioning
 .page {
 	max-width: 700px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: $spacing;
 }
 
 // Construction notice
 .construction-notice {
-	margin-bottom: 20px;
-	padding: 10px;
+	margin-bottom: $spacing;
+	padding: $spacing-small;
 	background-color: $c-yellow-light;
 }
 .construction-notice__content {
 	margin: 0;
-	font-size: 14px;
+	font-size: $font-size-small;
 }
 
 // Site header
 .site-header {
-	margin-bottom: 40px;
-	padding-bottom: 10px;
-	border-bottom: 2px dotted #ccc;
+	margin-bottom: $spacing-large;
+	padding-bottom: $spacing-small;
+	border-bottom: $spacing-rule dotted $c-grey-light;
 }
 
 // Site branding
-.site-brand {
+.site-brand,
+.site-brand:visited {
 	display: block;
 	line-height: 30px;
+	margin-bottom: $spacing;
 	text-decoration: none;
 	color: inherit;
 }
@@ -90,7 +105,7 @@ a:visited {
 }
 .site-navigation__subnav {
 	list-style: none;
-	padding-left: 20px;
+	padding-left: $spacing;
 }
 .site-navigation__item--current > a {
 	background-color: $c-yellow-light;
@@ -98,12 +113,18 @@ a:visited {
 
 // Site footer
 .site-footer {
-	margin-top: 40px;
-	padding-top: 10px;
-	border-top: 2px dotted #ccc;
+	margin-top: $spacing-large * 2;
+	padding-top: $spacing-small;
+	border-top: $spacing-rule dotted #ccc;
+	@include clearfix;
 }
+.site-footer__navigation,
+.site-footer__copyright {
+	float: left;
+	width: 50%;
 
-// Emoji (because you know I've got my priorities straight)
-.emoji {
-	vertical-align: bottom;
+	@media all and (max-width: 600px) {
+		float: none;
+		width: auto;
+	}
 }

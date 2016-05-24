@@ -1,0 +1,159 @@
+
+// Base typographic styles
+// -----------------------
+
+// Font basics
+@mixin body-typography {
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: 1.563;
+	color: $c-grey-dark;
+}
+body, .reset-type {
+	@include body-typography;
+}
+
+// Line spacing
+blockquote, caption, dl, figure, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, hr, ol, p, pre, table, ul {
+	margin-top: 0;
+	margin-bottom: $spacing;
+}
+caption {
+	margin-bottom: $spacing-small;
+}
+ol, ul {
+	ol, ul {
+		margin-bottom: 0;
+	}
+}
+
+// Headings
+caption, dt, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, th {
+	font-weight: normal;
+}
+li {
+	caption, dt, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, th {
+		margin-bottom: 0;
+	}
+}
+h6, .h6 {
+	font-size: $font-size;
+}
+h5, .h5 {
+	font-size: $font-size + 2px;
+}
+h4, .h4 {
+	font-size: $font-size + 4px;
+}
+h3, .h3 {
+	font-size: $font-size + 6px;
+}
+h2, .h2 {
+	margin-top: $spacing-large;
+	padding-bottom: $spacing-rule;
+	font-size: $font-size + 8px;
+	border-bottom: $spacing-rule solid $c-grey-light;
+}
+h1, .h1 {
+	font-size: $font-size + 10px;
+}
+
+// Lists
+dt {
+	font-weight: bold;
+}
+dd {
+	padding-left: $spacing;
+	margin-left: 0;
+	margin-bottom: $spacing-small;
+}
+
+// Tables
+table {
+	max-width: 100%;
+}
+th {
+	text-align: left;
+	font-weight: bold;
+}
+caption {
+	font-weight: bold;
+	text-align: left;
+}
+
+// Links
+a {
+	color: $c-blue-dark;
+	&:visited {
+		color: $c-purple-dark;
+	}
+}
+
+// Block-quotes
+blockquote {
+	margin-left: $spacing;
+	margin-right: 0;
+	padding-left: $spacing;
+	border-left: $spacing-rule * 2 solid $c-grey-light;
+}
+
+// Text-level semantics
+abbr {
+	cursor: help;
+}
+cite {
+	font-style: italic;
+}
+figcaption, small, sub, sup {
+	font-size: $font-size-small;
+}
+mark {
+	background-color: $c-yellow-light;
+}
+q {
+	font-style: italic;
+	&:before {
+		content: "“";
+	}
+	&:after {
+		content: "”";
+	}
+}
+
+// Rules
+hr {
+	height: 0;
+	border: none;
+	border-top: $spacing-rule solid $c-grey-light;
+	color: $c-grey-light;
+}
+
+// Figures
+figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+// Inline code blocks
+code {
+	padding: 3px 5px;
+	background-color: $c-grey-light;
+	border-radius: $spacing-rule;
+	font-family: $font-family-mono;
+}
+
+// Code blocks
+pre {
+	overflow: hidden;
+	code {
+		display: block;
+		padding: $spacing-small;
+		background-color: $c-grey-dark;
+		border: solid $spacing-rule $c-grey;
+		color: #dedede;
+		overflow: auto;
+	}
+	pre, table {
+		margin: 0;
+	}
+}
