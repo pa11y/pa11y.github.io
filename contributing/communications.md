@@ -111,7 +111,7 @@ Now that you have at least one other core team member in the loop, you should di
 
 ### Resolution
 
-When you've come to a decision on whether the reported behavior violates the Code of Conduct, you'll need to decide on a resolution. Regardless of what action you take, the reporter should **never** be identified to their harasser. Possible resolutions include:
+When you've come to a decision on whether the reported behavior violates the Code of Conduct, you'll need to decide on a resolution. Regardless of what action you take, the reporter should **never** be identified to the individual who is being reported. Possible resolutions include:
 
   - Taking no further action (if it's determined that no violation occurred).
 
