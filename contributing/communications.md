@@ -44,7 +44,7 @@ We're not saying that the documentation should read like a conversation, that wo
 
 ### Access
 
-All of the Pa11y projects are open source, and contributing does not require access to the [GitHub origanisation][pa11y-github]. If you do need access to create or administer a repo, [contact us][contact] (Rowan Manning might be the best person to ask).
+All of the Pa11y projects are open source, and contributing does not require access to the [GitHub organisation][pa11y-github]. If you do need access to create or administer a repo, [contact us][contact] (Rowan Manning might be the best person to ask).
 
 ### Responding to Issues and PRs
 
