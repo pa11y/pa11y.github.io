@@ -42,7 +42,7 @@ We like it when people report bugs in our projects, and would definitely rather 
 When making a feature request, it's helpful for us if you follow these guidelines.
 
   - ### Check if the feature has already been requested
-    You can do this by searching the repository. You may find that somebody has already asked for the feature you're thinking of! If this is the case then feel free to pile on the comments.
+    You can do this by searching the repository. You may find that somebody has already asked for the feature you're thinking of! If this is the case then feel free to join in the comments.
 
   - ### Phrase as user needs
     If you phrase your feature request as a user need rather than a proposed solution, it opens up more potential for discussion and collaboration – _way_ more fun for everyone.
