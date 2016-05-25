@@ -22,21 +22,21 @@ We don't have _strict_ guidelines on how you should write. We're not going to at
 
 ### Tone of Voice Guidelines
 
-- Write like a human  
+- #### Write like a human  
 Be professional, yes, but also conversational. We don't want to sound like robots, and should certainly never be communicating on behalf of the Pa11y project in unfeeling business-speak. At all times our users should feel like they're talking to a regular human.
-- But a Nice Human  
+- #### But a Nice Human  
 Be friendly, even if the user you're speaking to is being difficult (excluding when there's a [Code of Conduct violation](#code-of-conduct)). Our users are giving up time and energy to make their sites more accessible, and potentially contributing back.
-- Be Thankful...  
+- #### Be Thankful...  
 Make sure you thank anyone who's made a contribution or is even simply _using_ Pa11y (when it feels appropriate).
-- ...Especially to our Contributors  
+- #### ...Especially to our Contributors  
 Our contributors are amazing – they're giving up their time to make the web as a whole more accessible. Our gratefulness should definitely come across, as long is it's not overbearing!
-- Even in Documentation  
+- #### Even in Documentation  
 We're not saying that the documentation should read like a conversation, as this would make technical content imprecise. However introductions and any signposting should be friendly and helpful.
 
 
 ### Plain English guidelines
 
-Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. In particular:
+Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. You might find tools like [Hemingway App][hemingway] helpful when editing. In particular:
 
 - Be concise  
   - Check any sentences with more than 25 words to see if you can split them to make them clearer. 
@@ -46,6 +46,7 @@ Follow Plain English guidelines to help safeguard the accessibility of your writ
   - Use the active voice instead of the passive voice (e.g. "NPM will install the dependencies" instead of "the dependencies will be installed").
   - Address the user as "you" where possible.
   - Avoid referring to "things" or "stuff". 
+  - Be direct. Avoid metaphor, simile, and slang. 
 - Be informative
   - Consider your audience. General information may not look the same as information aimed at a technical audience.
   - Be as precise as you can usefully be - consider linking to high quality external resources where relevant. 
@@ -146,6 +147,7 @@ You must never reveal information about a reporter outside of the group you orig
 
 [code-of-conduct]: /contributing/code-of-conduct/
 [contact]: /contact/
+[hemingway]: http://www.hemingwayapp.com/
 [pa11y-github]: https://github.com/pa11y
 [pa11y-twitter]: https://twitter.com/pa11yorg
 [tweetdeck]: https://tweetdeck.twitter.com/
