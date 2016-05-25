@@ -22,16 +22,16 @@ We don't have _strict_ guidelines on how you should write. We're not going to at
 
 ### Tone of Voice Guidelines
 
-- #### Write like a human  
-Be professional, yes, but also conversational. We don't want to sound like robots, and should certainly never be communicating on behalf of the Pa11y project in unfeeling business-speak. At all times our users should feel like they're talking to a regular human.
-- #### But a Nice Human  
-Be friendly, even if the user you're speaking to is being difficult (excluding when there's a [Code of Conduct violation](#code-of-conduct)). Our users are giving up time and energy to make their sites more accessible, and potentially contributing back.
-- #### Be Thankful...  
-Make sure you thank anyone who's made a contribution or is even simply _using_ Pa11y (when it feels appropriate).
-- #### ...Especially to our Contributors  
-Our contributors are amazing – they're giving up their time to make the web as a whole more accessible. Our gratefulness should definitely come across, as long is it's not overbearing!
-- #### Even in Documentation  
-We're not saying that the documentation should read like a conversation, as this would make technical content imprecise. However introductions and any signposting should be friendly and helpful.
+  - #### Write like a human  
+    Be professional, yes, but also conversational. We don't want to sound like robots, and should certainly never be communicating on behalf of the Pa11y project in unfeeling business-speak. At all times our users should feel like they're talking to a regular human.
+  - #### But a Nice Human  
+    Be friendly, even if the user you're speaking to is being difficult (excluding when there's a [Code of Conduct violation](#code-of-conduct)). Our users are giving up time and energy to make their sites more accessible, and potentially contributing back.
+  - #### Be Thankful...  
+    Make sure you thank anyone who's made a contribution or is even simply _using_ Pa11y (when it feels appropriate).
+  - #### ...Especially to our Contributors  
+   Our contributors are amazing – they're giving up their time to make the web as a whole more accessible. Our gratefulness should definitely come across, as long is it's not overbearing!
+  - #### Even in Documentation  
+    We're not saying that the documentation should read like a conversation, as this would make technical content imprecise. However introductions and any signposting should be friendly and helpful.
 
 
 ### Plain English guidelines
