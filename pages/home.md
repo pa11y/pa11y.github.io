@@ -7,7 +7,7 @@ permalink: /
 
 # Pa11y
 
-Here at Pa11y, we think making the web more accessible improves it for everyone. So we use tools and automation to help make it better. We publish a range of free and open source tools to help designers and developers make their web pages more accessible:
+Here at Pa11y, we think making the web more accessible improves it for everyone. So we publish a range of free and open source tools to help designers and developers make their web pages more accessible:
 
   - ### [Pa11y CLI]
     A command-line interface which loads web pages and highlights any accessibility issues it finds. Useful in <abbr title="Continuous Integration">CI</abbr>, or for when you want to run a one-off test against a web page.
