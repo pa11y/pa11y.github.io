@@ -13,24 +13,23 @@ You can contact any one of the core team below for any Pa11y-related issue, this
   - If you wish to discuss an issue before taking it public
   - If you need to report a violation of [our code of conduct][code-of-conduct]
 
-If you don't wish to contact an individual team member, you can reach us here:
+You can reach us here:
 
   - [Join us on Slack][pa11y-slack]
   - [@pa11yorg on Twitter][pa11y-twitter]
   - [@pa11y on GitHub][pa11y-github]
 
-
+<!--
 ## Team Members
 
-<!--
 Hi there, person editing this page :)
 
 If you're looking for where to add your contact details,
 I'm afraid it's not here. The contact details for team
 members are stored in `_data/team.yml`.
--->
 
 {% include team-list.html %}
+-->
 
 
 
