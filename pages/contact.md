@@ -13,7 +13,7 @@ You can contact any one of the core team below for any Pa11y-related issue, this
   - If you wish to discuss an issue before taking it public
   - If you need to report a violation of [our code of conduct][code-of-conduct]
 
-If you don't wish to contact an individual team member, you can reach us here:
+If you'd prefer not to contact an individual team member, you can contact the team here:
 
   - [Join us on Slack][pa11y-slack]
   - [@pa11yorg on Twitter][pa11y-twitter]
