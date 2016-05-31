@@ -81,6 +81,7 @@ Pa11y has a code style, but we'll keep it brief. The best way to ensure you stic
 
   - Tabs for indentation (except `package.json` and Markdown)
   - 100 characters per line
+  - Don't abbreviate names (`request` is better than `req`)
 
 ### JavaScript Style
 
