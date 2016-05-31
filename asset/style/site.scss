@@ -128,3 +128,19 @@ $c-yellow-light: lighten($c-yellow, 35%);
 		width: auto;
 	}
 }
+
+// Repo list
+.repo-list__repo {
+	margin-bottom: $spacing;
+}
+.repo-list__repo__description {
+	margin-bottom: 0;
+}
+
+// Team list
+.team-list__member {
+	margin-bottom: $spacing;
+}
+.team-list__member__role {
+	margin-bottom: 0;
+}
