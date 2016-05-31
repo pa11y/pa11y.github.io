@@ -1,14 +1,10 @@
 
-<ul>
+<ul class="team-list">
 	{% for team_member in site.data.team %}
-		<li>
+		<li class="team-list__member">
 
-			<h3>{{team_member.name}}</h3>
-			<p>{{team_member.role}}</p>
-
-			{% if team_member.avatar %}
-				<img src="http://www.gravatar.com/avatar/{{team_member.avatar}}?s=100" alt="{{team_member.name}}"/>
-			{% endif %}
+			<h3 class="team-list__member__name">{{team_member.name}}</h3>
+			<p class="team-list__member__role">{{team_member.role}}</p>
 
 			<ul>
 

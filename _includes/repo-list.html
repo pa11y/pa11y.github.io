@@ -1,17 +1,17 @@
 
-<ul>
+<ul class="repo-list">
 	{% for repository in site.github.public_repositories %}
-		<li>
+		<li class="repo-list__repo">
 
-			<h3><a href="{{repository.html_url}}">{{repository.name}}</a></h3>
-			<p>
+			<h3 class="repo-list__repo__name"><a href="{{repository.html_url}}">{{repository.name}}</a></h3>
+			<p class="repo-list__repo__description">
 				{% if repository.name == 'pa11y.github.io' %}
 					The source code for this website.
 				{% else %}
 					{{repository.description}}
 				{% endif %}
 			</p>
-			<ul>
+			<ul class="repo-list__repo__stats">
 				<li>{{repository.stargazers_count}} stars</li>
 				<li>{{repository.forks_count}} forks</li>
 			</ul>
