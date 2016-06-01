@@ -60,7 +60,7 @@ All of the Pa11y projects are open source, and contributing does not require acc
 
 ### Responding to Issues and PRs
 
-Ideally issues and pull requests should be responded to within the first day of opening. That doesn't mean that they need to be actioned, and a response can be as simple as:
+Ideally, one of us should respond to issues and pull requests within the first day of opening. That doesn't mean that they need to be actioned, and a response can be as simple as:
 
   > Hi, thanks for opening! We're looking into it.
 
