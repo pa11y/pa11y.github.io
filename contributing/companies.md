@@ -11,7 +11,7 @@ Pa11y is developed and maintained by people from many companies. We're very grat
 
   - [Active development](#active-development)
   - [Providing feedback](#providing-feedback)
-  - [Talking about Pa11y](#talking)
+  - [Talking about Pa11y](#talking-about-pa11y)
   - [Physical space](#physical-space)
 
 
