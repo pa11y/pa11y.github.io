@@ -79,7 +79,7 @@ Pa11y has a code style, but we'll keep it brief. The best way to ensure you stic
 
 ### General Style
 
-  - Tabs for indentation (except `package.json` and Markdown)
+  - Tabs for indentation (except in `package.json` and Markdown files)
   - 100 characters per line
   - Don't abbreviate names (`request` is better than `req`)
 
@@ -113,7 +113,7 @@ Pa11y has a code style, but we'll keep it brief. The best way to ensure you stic
 
 ## Testing
 
-Pa11y projects should always be well tested and consider code quality/consistenct. Pa11y projects normally use the following tools for this:
+Pa11y projects should always be well tested and consider code quality/consistency. Pa11y projects normally use the following tools for this:
 
   - [Mocha] for unit and integration testing (with [Proclaim] as an assertion library)
   - [JSHint], [JSCS], and [EditorConfig] for code quality and consistency
