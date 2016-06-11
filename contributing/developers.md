@@ -64,7 +64,7 @@ Please do! All of the code in Pa11y projects is peer-reviewed, this isn't as sca
     Each project should have instructions on how to [run the tests](#testing). If you haven't done much automated testing before then [get in touch][contact] and we'll teach you a bit! New features should have new unit or integration tests, and bugs should have tests to prevent regressions.
 
   - ### Update the documentation
-    The documentation should be kept up to date with any changes made.
+    The user documentation should be kept up to date with any changes made. Use inline code comments as developer documentation, focusing more on _why_ your code does something than _what_ it's doing. 
 
   - ### Follow the code style
     We have a [code style](#code-style), and the pull request build will fail if this isn't followed. If the code style varies for a project already then it's best to follow the example set in that project. We're not mean, we just like consistency **a lot** :wink:
