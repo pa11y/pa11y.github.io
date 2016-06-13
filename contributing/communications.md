@@ -38,7 +38,7 @@ We don't have _strict_ guidelines on how you should write. We're not going to at
 
 Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. You might find tools like [Hemingway App][hemingway] helpful when editing. In particular:
 
-- Be brief  
+- Be concise  
   - Check any sentences with more than 25 words to see if you can split them to make them clearer. 
   - Use contractions (e.g. "can't", "it's").
   - Go straight to the point.
