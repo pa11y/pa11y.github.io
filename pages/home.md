@@ -25,7 +25,7 @@ Here at Pa11y, we think making the web more accessible improves it for everyone.
 
 Here are some useful articles written by Pa11y users and contributors:
 
-  - [Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitialOcean](https://una.im/pa11y-dash/)
+  - [Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean](https://una.im/pa11y-dash/)
   - [Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
 
 
