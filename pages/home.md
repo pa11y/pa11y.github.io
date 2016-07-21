@@ -29,7 +29,7 @@ Here are some useful articles written by Pa11y users and contributors:
   - [Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
 
 
-## Get Involved
+## Get involved
 
 If you're interested in helping us out, we'd love to hear from you. Head on over to [our contributors guide][contributors] to get started!
 

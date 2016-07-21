@@ -1,5 +1,5 @@
 ---
-title: Designers - Contributing to Pa11y
+title: Designers - contributing to Pa11y
 description: How designers can conribute to Pa11y projects, and design-specific guidelines.
 permalink: /contributing/designers/
 ---
@@ -14,12 +14,12 @@ Hello. Would you like to help us out with brand and design? Pa11y hasn't had loa
   - [Resources](#resources)
 
 
-## The Pa11y Brand
+## The Pa11y brand
 
 :construction: TODO introduction to the branding
 
 
-## Design Guidelines
+## Design guidelines
 
 :construction: TODO more in-depth design guidelines
 

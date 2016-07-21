@@ -1,5 +1,5 @@
 ---
-title: Companies - Contributing to Pa11y
+title: Companies - contributing to Pa11y
 description: How companies can conribute to Pa11y projects, and company-specific guidelines.
 permalink: /contributing/companies/
 ---

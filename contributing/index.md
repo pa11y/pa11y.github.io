@@ -12,7 +12,7 @@ You've reached the Pa11y contributors guide, thanks for getting involved :tada:
 The Pa11y team loves to see new contributors, and we strive to provide a welcoming and inclusive environment. We ask that all contributors read and follow [our code of conduct][code-of-conduct] before getting stuck in.
 
 
-## How Can I Help?
+## How can I help?
 
 We're glad you asked! There are loads of ways to contribute to Pa11y, you don't have to be a developer to do so either.
 

@@ -1,11 +1,11 @@
 ---
-title: Contact Team Pa11y
+title: Contact team Pa11y
 description: Get in touch with one of the core team members.
 permalink: /contact/
 ---
 
 
-# Contact Team Pa11y
+# Contact team Pa11y
 
 You can contact any one of the core team below for any Pa11y-related issue, this could include:
 
@@ -20,7 +20,7 @@ If you'd prefer not to contact an individual team member, you can contact the te
   - [@pa11y on GitHub][pa11y-github]
 
 
-## Team Members
+## Team members
 
 <!--
 Hi there, person editing this page :)
