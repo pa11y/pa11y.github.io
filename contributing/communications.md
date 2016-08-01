@@ -17,7 +17,7 @@ Hello, so you're interested in helping out with our communications? We're pretty
 
 ## Writing Style
 
-We don't have _strict_ guidelines on how you should write. We're not going to attempt to remove your personality from your writing. We have two sets of guidlines - Tone of Voice and Plain English. 
+We don't have _strict_ guidelines on how you should write. We're not going to attempt to remove your personality from your writing. We have two sets of guidelines - Tone of Voice and Plain English.
 
 
 ### Tone of voice guidelines
@@ -39,17 +39,17 @@ We don't have _strict_ guidelines on how you should write. We're not going to at
 Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. You might find tools like [Hemingway App][hemingway] helpful when editing. In particular:
 
 - Be concise  
-  - Check any sentences with more than 25 words to see if you can split them to make them clearer. 
+  - Check any sentences with more than 25 words to see if you can split them to make them clearer.
   - Use contractions (e.g. "can't", "it's").
   - Go straight to the point.
 - Be specific
   - Use the active voice instead of the passive voice (e.g. "NPM will install the dependencies" instead of "the dependencies will be installed").
   - Address the user as "you" where possible.
-  - Avoid referring to "things" or "stuff". 
-  - Be direct. Avoid metaphor, simile, and slang. 
+  - Avoid referring to "things" or "stuff".
+  - Be direct. Avoid metaphor, simile, and slang.
 - Be informative
   - Consider your audience. General information may not look the same as information aimed at a technical audience.
-  - Be as precise as you can usefully be - consider linking to high quality external resources where relevant. 
+  - Be as precise as you can usefully be - consider linking to high quality external resources where relevant.
 
 
 ## GitHub

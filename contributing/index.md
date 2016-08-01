@@ -9,7 +9,7 @@ permalink: /contributing/
 
 You've reached the Pa11y contributors guide, thanks for getting involved :tada:
 
-The Pa11y team loves to see new contributors, and we strive to provide a welcoming and inclusive environment. We ask that all contributors read and follow [our code of conduct][code-of-conduct] before getting stuck in.
+The Pa11y team loves to see new contributors, and we strive to provide a welcoming and inclusive environment. We ask that all contributors read and follow [our code of conduct][code-of-conduct] before joining.
 
 
 ## How can I help?
