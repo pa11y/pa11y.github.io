@@ -8,7 +8,7 @@ The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa1
 [![Join us on Slack](https://pa11y-slack.herokuapp.com/badge.svg)](https://pa11y-slack.herokuapp.com/)
 
 
-Running Locally
+Running locally
 ---------------
 
 You'll need [Ruby], [Bundler] and [Node.js] installed for this.
@@ -18,22 +18,22 @@ You'll need [Ruby], [Bundler] and [Node.js] installed for this.
   3. Visit <http://localhost:4000/>
 
 
-Editing This Site
+Editing this site
 -----------------
 
-### Home Page
+### Home page
 
 The home page text content can be found in [`pages/home.md`](pages/home.md).
 
-### Projects Page
+### Projects page
 
 The projects page text content can be found in [`pages/projects.md`](pages/projects.md). The actual project list is automatically generated from the organisation repo list.
 
-### Contributor Guides
+### Contributor guides
 
 The contributor guides live in the [`contributing` folder](contributing), these pages are Markdown files. Edit the others at will, but the Code of Conduct should not be edited – we use the [Contributor Covenant][contributor-covenant] without modifications.
 
-### Contact Page
+### Contact page
 
 The contact page text content can be found in [`pages/contact.md`](pages/contact.md). To add your contact details to this page, edit [`_data/team.yml`](_data/team.yml); there are instructions at the top of this file.
 

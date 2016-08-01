@@ -1,5 +1,5 @@
 ---
-title: Developers - Contributing to Pa11y
+title: Developers - contributing to Pa11y
 description: How developers can conribute to Pa11y projects, and development-specific guidelines.
 permalink: /contributing/developers/
 ---
@@ -17,7 +17,7 @@ So you'd like to contribute some code, report a bug, or request a feature? You'r
   - [Releasing/Versioning](#releasingversioning)
 
 
-## Reporting Bugs
+## Reporting bugs
 
 We like it when people report bugs in our projects, and would definitely rather _know_ about them than be left in the dark. We use GitHub issues for bug tracking. When filing a bug report, there are some guidelines you can follow which will help us quickly resolve your issue:
 
@@ -37,7 +37,7 @@ We like it when people report bugs in our projects, and would definitely rather 
     If you have multiple different bugs, it's best to open each as a separate GitHub issue.
 
 
-## Requesting Features
+## Requesting features
 
 When making a feature request, it's helpful for us if you follow these guidelines.
 
@@ -53,7 +53,7 @@ When making a feature request, it's helpful for us if you follow these guideline
 It's important to note that we can't accept _every_ feature request, we'll always discuss why if we're not going to accept them though.
 
 
-## Opening a Pull Request
+## Opening a pull request
 
 Please do! All of the code in Pa11y projects is peer-reviewed, this isn't as scary as it sounds, we're a considerate bunch and we love to help people learn. There are some things you can do to help this review go smoothly:
 
@@ -73,17 +73,17 @@ Please do! All of the code in Pa11y projects is peer-reviewed, this isn't as sca
     When fixing a bug, reference the original report; when adding a feature, link to the original feature request. It'll help us massively!
 
 
-## Code Style
+## Code style
 
 Pa11y has a code style, but we'll keep it brief. The best way to ensure you stick to it is to make your work consistent with the code around it. We also have ways to [enforce the code style](#code-quality-and-consistency), so don't let it get in the way of your flow – you can fix it afterwards!
 
-### General Style
+### General style
 
   - Tabs for indentation (except in `package.json` and Markdown files)
   - 100 characters per line
   - Don't abbreviate names (`request` is better than `req`)
 
-### JavaScript Style
+### JavaScript style
 
   - Use semicolons
   - Use `'`, not `"`
@@ -91,20 +91,20 @@ Pa11y has a code style, but we'll keep it brief. The best way to ensure you stic
   - Use ES6 where available
   - Commas at the end of the line, not the start
 
-### HTML Style
+### HTML style
 
   - Use HTML5
   - Use lowercase names for tags/attributes
   - Use `"` to quote attributes
 
-### CSS/Sass Style
+### CSS/Sass style
 
   - Use [BEM]-style naming for classes
   - One selector per line
   - One property/value per line
   - Don't style IDs
 
-### Markdown Style
+### Markdown style
 
   - Add two empty lines above a `h2` (to break up sections)
   - Indent lists and quotes (by two spaces)
@@ -119,17 +119,17 @@ Pa11y projects should always be well tested and consider code quality/consistenc
   - [JSHint], [JSCS], and [EditorConfig] for code quality and consistency
   - [Make] as a build tool
 
-### Unit Testing
+### Unit testing
 
 As much code as possible should be unit tested with [Mocha], and a coverage of `90` or higher should be verified with [Istanbul]. [Sinon] and [Mockery] are normally used for mocking.
 
 If in doubt, [speak to a member of the team][contact] – someone will be happy to help. Also the existing projects make good use of these tools, so [looking through the tests][pa11y-tests] might help.
 
-### Integration Testing
+### Integration testing
 
 We also use Mocha for integration tests. These are normally only added for larger projects with more complex integrations. For example an extensive command-line tool or a database-driven website.
 
-### Code Quality and Consistency
+### Code quality and consistency
 
 We provide standard configuration files which can be easily copied into Pa11y projects. These configurations are geared towards ES6-based projects, and don't need to be used in legacy projects.
 
@@ -142,7 +142,7 @@ curl {{site.github.url}}/resources/development/jshintignore > .jshintignore
 curl {{site.github.url}}/resources/development/jshintrc > .jshintrc
 ```
 
-### Build Tools
+### Build tools
 
 Ideally every project should implement at least the following [Make] targets:
 

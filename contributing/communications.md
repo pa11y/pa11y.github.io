@@ -1,5 +1,5 @@
 ---
-title: Communications - Contributing to Pa11y
+title: Communications - contributing to Pa11y
 description: How to communicate on behalf of the Pa11y team.
 permalink: /contributing/communications/
 ---
@@ -9,10 +9,10 @@ permalink: /contributing/communications/
 
 Hello, so you're interested in helping out with our communications? We're pretty pleased about that. This guide covers general writing style as well as everything you need to start talking to our users on [GitHub](#github) and [Twitter](#twitter). We also cover how to [respond to Code of Conduct issues](#code-of-conduct).
 
-  - [Writing Style](#writing-style)
+  - [Writing style](#writing-style)
   - [GitHub](#github)
   - [Twitter](#twitter)
-  - [Code of Conduct](#code-of-conduct)
+  - [Code of conduct](#code-of-conduct)
 
 
 ## Writing Style
@@ -20,21 +20,21 @@ Hello, so you're interested in helping out with our communications? We're pretty
 We don't have _strict_ guidelines on how you should write. We're not going to attempt to remove your personality from your writing. We have two sets of guidlines - Tone of Voice and Plain English. 
 
 
-### Tone of Voice Guidelines
+### Tone of voice guidelines
 
   - #### Write like a human  
     Be professional, yes, but also conversational. We don't want to sound like robots, and should certainly never be communicating on behalf of the Pa11y project in unfeeling business-speak. At all times our users should feel like they're talking to a regular human.
-  - #### But a Nice Human  
+  - #### But a nice human  
     Be friendly, even if the user you're speaking to is being difficult (excluding when there's a [Code of Conduct violation](#code-of-conduct)). Our users are giving up time and energy to make their sites more accessible, and potentially contributing back.
-  - #### Be Thankful...  
+  - #### Be thankful...  
     Make sure you thank anyone who's made a contribution or is even simply _using_ Pa11y (when it feels appropriate).
-  - #### ...Especially to our Contributors  
+  - #### ...especially to our contributors  
    Our contributors are amazing – they're giving up their time to make the web as a whole more accessible. Our gratefulness should definitely come across, as long is it's not overbearing!
-  - #### Even in Documentation  
+  - #### Even in documentation  
     We're not saying that the documentation should read like a conversation, as this would make technical content imprecise. However introductions and any signposting should be friendly and helpful.
 
 
-### Plain English guidelines
+### Plain english guidelines
 
 Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. You might find tools like [Hemingway App][hemingway] helpful when editing. In particular:
 
@@ -58,7 +58,7 @@ Follow Plain English guidelines to help safeguard the accessibility of your writ
 
 All of the Pa11y projects are open source, and contributing does not require access to the [GitHub organisation][pa11y-github]. If you do need access to create or administer a repo, [contact us][contact] (Rowan Manning might be the best person to ask).
 
-### Responding to Issues and PRs
+### Responding to issues and PRs
 
 Ideally, one of us should respond to issues and pull requests within the first day of opening. That doesn't mean that they need to be actioned, and a response can be as simple as:
 
@@ -74,7 +74,7 @@ If an issue is a duplicate of an older issue, the simplest response is:
 
 Then you can add the "duplicate" label and close the issue.
 
-### How to Say No
+### How to say no
 
 Sometimes we have to say no to a feature request. That's difficult. Sometimes we have to say no to a pull request, and that's even harder! As a user or contributor it's natural to get defensive in this scenario, so it's our job as maintainers to ensure that they still feel valued.
 
@@ -96,11 +96,11 @@ You can however respond to user questions/requests. In most cases, the appropria
 The Twitter may also be used to bring certain GitHub issues or new web pages to the attention of a wider audience. This is useful for gathering feedback.
 
 
-## Code of Conduct
+## Code of conduct
 
 Responding to [Code of Conduct][code-of-conduct] issues and violations is _really_ important. Not only do we need to do so promptly, but we need to make sure that core contributors are prepared to take necessary action.
 
-### Receipt and Information Gathering
+### Receipt and information gathering
 
 If you receive a report, the first thing you should do is reply to the report to confirm receipt. This should be sent within 24 hours, and should simply thank the reporter for speaking out and assure them that their report is being dealt with.
 
