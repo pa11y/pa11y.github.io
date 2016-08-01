@@ -66,17 +66,6 @@ $c-yellow-light: lighten($c-yellow, 35%);
 	padding: $spacing;
 }
 
-// Construction notice
-.construction-notice {
-	margin-bottom: $spacing;
-	padding: $spacing-small;
-	background-color: $c-yellow-light;
-}
-.construction-notice__content {
-	margin: 0;
-	font-size: $font-size-small;
-}
-
 // Site branding
 .site-brand,
 .site-brand:visited {
