@@ -30,7 +30,7 @@
 				</a>
 			</li>
 
-			<li class="site-navigation__item {% if page.url == '/contributing/' %}site-navigation__item--current{% endif %}">
+			<li class="site-navigation__item {% if page.url contains '/contributing/' %}site-navigation__item--current{% endif %}">
 				<a href="/contributing/">
 					Contributing
 				</a>
@@ -64,7 +64,7 @@
 						<a href="/contributing/companies/">
 							Companies
 						</a>
-					</li>					
+					</li>
 
 				</ul>
 			</li>
