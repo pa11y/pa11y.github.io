@@ -1,0 +1,113 @@
+.site-navigation {
+  display: block;
+  position: relative;
+  padding: 3rem 0;
+  list-style: none;
+}
+
+.site-navigation__menu {
+
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.site-navigation__item  {
+  display:inline-block;
+  position: relative;
+  float: left;
+  width: 25%;
+}
+
+.site-navigation__item--has-submenu {
+
+}
+
+.site-navigation__submenu-button {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  margin-top: 10px;
+  background: url(/asset/image/svg/arrow-down.svg);
+  background-repeat: no-repeat;
+}
+
+.site-navigation__submenu-button:active {
+  background: url(/asset/image/svg/arrow-down-white.svg);
+  background-repeat: no-repeat;
+}
+
+.site-navigation__submenu-button--transform {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -moz-transition: 100ms linear all;
+  -webkit-transition: 100ms linear all;
+  transition: 100ms linear all;
+}
+
+.site-navigation__item-link {
+  display:block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-right:1px solid #fff;
+  background: $c-grey-lighter;
+  text-decoration: none;
+}
+
+.site-navigation__item-link:focus {
+  background: $c-yellow;
+  outline: none;
+}
+
+.site-navigation__item-link:hover {
+  background: $c-blue;
+  color: $c-grey-lighter;
+}
+
+
+.site-navigation__item-link:hover .site-navigation__submenu-button {
+  background: url(/asset/image/svg/arrow-down-white.svg);
+  background-repeat: no-repeat;
+}
+
+.site-navigation__item--current > a {
+	background-color: $c-purple;
+}
+
+.site-navigation__menu--sub-nav {
+    margin: 0;
+    padding:0;
+    display: none;
+    position: absolute;
+}
+
+.open ul {
+  display: block;
+}
+
+
+.site-navigation__item--sub-nav {
+  display:inline-block;
+  width: 100%
+}
+
+@media (max-width: 600px) {
+  .site-navigation__item  {
+    width: 100%;
+  }
+
+  .site-navigation__menu {
+    margin-bottom: $spacing;
+  }
+
+  .site-navigation__item {
+    float: none;
+  }
+
+  .site-navigation__menu--sub-nav {
+    position: relative;
+
+  }
+}

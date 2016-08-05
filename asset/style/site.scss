@@ -27,7 +27,10 @@ $c-blue-dark: darken($c-blue, 20%);
 
 $c-grey: #6c7878;
 $c-grey-light: #ddd;
+$c-grey-lighter: lighten($c-grey-light, 10%);
 $c-grey-dark: #222;
+
+
 
 $c-purple: #8a34db;
 $c-purple-dark: darken($c-purple, 20%);
@@ -42,6 +45,7 @@ $c-yellow-light: lighten($c-yellow, 35%);
 // -----------
 
 @import "typography";
+@import "header";
 
 // Clearfix mixin
 @mixin clearfix {
@@ -54,7 +58,9 @@ $c-yellow-light: lighten($c-yellow, 35%);
 .clearfix {
 	@include clearfix;
 }
-
+.visually-hidden {
+	display: none;
+}
 // Page width/positioning
 .page {
 	max-width: 700px;
