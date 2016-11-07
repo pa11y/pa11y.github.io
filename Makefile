@@ -27,4 +27,4 @@ serve:
 # Run pa11y against the site
 test:
 	@echo "Testing site"
-	@pa11y-ci --sitemap "http://$(HOST)/sitemap.xml" --sitemap-find "pa11y.github.io/pa11y" --sitemap-replace "$(HOST)"
+	@pa11y-ci --sitemap "http://$(HOST)/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "$(HOST)"
