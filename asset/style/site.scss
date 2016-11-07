@@ -30,8 +30,6 @@ $c-grey-light: #ddd;
 $c-grey-lighter: lighten($c-grey-light, 10%);
 $c-grey-dark: #222;
 
-
-
 $c-purple: #8a34db;
 $c-purple-dark: darken($c-purple, 20%);
 
@@ -77,13 +75,6 @@ $c-yellow-light: lighten($c-yellow, 35%);
 .construction-notice__content {
 	margin: 0;
 	font-size: $font-size-small;
-}
-
-// Site header
-.site-header {
-	margin-bottom: $spacing-large;
-	padding-bottom: $spacing-small;
-	border-bottom: $spacing-rule dotted $c-grey-light;
 }
 
 // Site branding
