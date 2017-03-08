@@ -35,8 +35,7 @@ Here are some useful articles written by Pa11y users and contributors:
 
 ## Other ways to use Pa11y
 
-  - ### [Koa11y]
-	A desktop application for Windows, OSX, and Ubuntu that lets you start using Pa11y with just a few clicks. Great if you're not a developer and you just need a simple way to use Pa11y from your desktop computer without worrying about source code and complicated setup!
+  - [Koa11y] is a desktop application for Windows, OSX, and Ubuntu that lets you start using Pa11y with just a few clicks. Great if you're not a developer and you just need a simple way to use Pa11y from your desktop computer without worrying about source code and complicated setup!
 
 
 ## Get involved
