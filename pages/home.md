@@ -33,6 +33,11 @@ Here are some useful articles written by Pa11y users and contributors:
   - [Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
 
 
+## Other ways to use Pa11y
+
+  - [Koa11y] is a desktop application for Windows, OSX, and Ubuntu that lets you start using Pa11y with just a few clicks. Great if you're not a developer and you just need a simple way to use Pa11y from your desktop computer without worrying about source code and complicated setup!
+
+
 ## Get involved
 
 If you're interested in helping us out, we'd love to hear from you. Head on over to [our contributors guide][contributors] to get started!
@@ -40,6 +45,7 @@ If you're interested in helping us out, we'd love to hear from you. Head on over
 
 
 [contributors]: /contributing/
+[koa11y]: http://thejaredwilcurt.github.io/Koa11y/
 [pa11y]: https://github.com/pa11y/pa11y
 [pa11y ci]: https://github.com/pa11y/ci
 [pa11y dashboard]: https://github.com/pa11y/dashboard
