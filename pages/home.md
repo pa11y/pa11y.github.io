@@ -32,6 +32,7 @@ Here are some useful articles written by Pa11y users and contributors:
   - [Monitoring Web Accessibility Compliance With Pa11y Dashboard](https://www.lullabot.com/articles/monitoring-web-accessibility-compliance-with-pa11y-dashboard)
   - [Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
   - [Automated accessibility testing with Travis and Pa11y CI](http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/)
+  - [Using actions in Pa11y](http://hollsk.co.uk/posts/view/using-actions-in-pa11y)
 
 
 ## Other ways to use Pa11y
