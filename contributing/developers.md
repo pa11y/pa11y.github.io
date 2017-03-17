@@ -1,6 +1,6 @@
 ---
 title: Developers - contributing to Pa11y
-description: How developers can conribute to Pa11y projects, and development-specific guidelines.
+description: How developers can contribute to Pa11y projects, and development-specific guidelines.
 permalink: /contributing/developers/
 ---
 
