@@ -34,7 +34,7 @@ We don't have _strict_ guidelines on how you should write. We're not going to at
     We're not saying that the documentation should read like a conversation, as this would make technical content imprecise. However introductions and any signposting should be friendly and helpful.
 
 
-### Plain english guidelines
+### Plain English guidelines
 
 Follow Plain English guidelines to help safeguard the accessibility of your written content. It'd be ironic for an a11y project to produce documents that are hard to understand! All relevant guidelines for [writing well][writing-well] apply. You might find tools like [Hemingway App][hemingway] helpful when editing. In particular:
 
@@ -49,7 +49,7 @@ Follow Plain English guidelines to help safeguard the accessibility of your writ
   - Be direct. Avoid metaphor, simile, and slang.
 - Be informative
   - Consider your audience. General information may not look the same as information aimed at a technical audience.
-  - Be as precise as you can usefully be - consider linking to high quality external resources where relevant.
+  - Be as precise as you can usefully be - consider linking to high-quality external resources where relevant.
 
 
 ## GitHub
