@@ -64,7 +64,7 @@ Please do! All of the code in Pa11y projects is peer-reviewed, this isn't as sca
     Each project should have instructions on how to [run the tests](#testing). If you haven't done much automated testing before then [get in touch][contact] and we'll teach you a bit! New features should have new unit or integration tests, and bugs should have tests to prevent regressions.
 
   - ### Update the documentation
-    The user documentation should be kept up to date with any changes made. Use inline code comments as developer documentation, focusing more on _why_ your code does something than _what_ it's doing. 
+    The user documentation should be kept up to date with any changes made. Use inline code comments as developer documentation, focusing more on _why_ your code does something than _what_ it's doing.
 
   - ### Follow the code style
     We have a [code style](#code-style), and the pull request build will fail if this isn't followed. If the code style varies for a project already then it's best to follow the example set in that project. We're not mean, we just like consistency **a lot** :wink:
@@ -121,7 +121,7 @@ Pa11y projects should always be well tested and consider code quality/consistenc
 
 ### Unit testing
 
-As much code as possible should be unit tested with [Mocha], and a coverage of `90` or higher should be verified with [Istanbul]. [Sinon] and [Mockery] are normally used for mocking.
+As much code as possible should be unit tested with [Mocha], and a coverage of `90` or higher should be verified with [nyc]. [Sinon] and [Mockery] are normally used for mocking.
 
 If in doubt, [speak to a member of the team][contact] – someone will be happy to help. Also the existing projects make good use of these tools, so [looking through the tests][pa11y-tests] might help.
 
@@ -131,16 +131,7 @@ We also use Mocha for integration tests. These are normally only added for large
 
 ### Code quality and consistency
 
-We provide standard configuration files which can be easily copied into Pa11y projects. These configurations are geared towards ES6-based projects, and don't need to be used in legacy projects.
-
-Copy these files into your project, and see the section on [build tools](#build-tools) for information on how to verify that they pass:
-
-```sh
-curl {{site.github.url}}/resources/development/editorconfig > .editorconfig
-curl {{site.github.url}}/resources/development/jscsrc > .jscsrc
-curl {{site.github.url}}/resources/development/jshintignore > .jshintignore
-curl {{site.github.url}}/resources/development/jshintrc > .jshintrc
-```
+For JavaScript code quality, you should use the [Pa11y Lint Config] module. This gives each project an updatable shared code style.
 
 ### Build tools
 
@@ -150,8 +141,10 @@ Ideally every project should implement at least the following [Make] targets:
 make install  # Install dependencies (`make deps` also acceptable in legacy projects)
 make test     # Run all of the tests (unit, integration, coverage)
 make verify   # Run linters (`make lint` also acceptable in legacy projects)
-make ci       # Alias to `make lint test`
+make ci       # Alias to `make verify test`
 ```
+
+Most projects now use a [shared Makefile][makefiles] for this, which will provide all of the required targets.
 
 
 ## Releasing/Versioning
@@ -187,13 +180,15 @@ All of our projects are versioned using [Semantic Versioning] (except for this s
 [bem]: http://getbem.com/naming/
 [contact]: /contact/
 [editorconfig]: http://editorconfig.org/
-[istanbul]: https://github.com/gotwarlost/istanbul
 [jscs]: http://jscs.info/
 [jshint]: http://jshint.com/
 [make]: https://www.gnu.org/software/make/
+[makefiles]: https://github.com/rowanmanning/makefiles
 [mocha]: https://mochajs.org/
 [mockery]: https://github.com/mfncooper/mockery
 [npm]: https://www.npmjs.com/
+[nyc]: https://github.com/istanbuljs/nyc
+[pa11y lint config]: https://github.com/pa11y/lint-config
 [pa11y-tests]: https://github.com/pa11y/pa11y/tree/master/test/unit
 [proclaim]: https://github.com/rowanmanning/proclaim
 [reference-links]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
