@@ -23,6 +23,7 @@ $spacing-large: 40px;
 $spacing-rule: 2px;
 
 $c-blue: #3498db;
+$c-blue-light: lighten($c-blue, 40%);
 $c-blue-dark: darken($c-blue, 20%);
 
 $c-grey: #6c7878;
@@ -58,6 +59,15 @@ $c-yellow-light: lighten($c-yellow, 35%);
 }
 .visually-hidden {
 	display: none;
+}
+.flash {
+	border: solid 1px $c-blue;
+    padding: 15px 15px 0;
+    margin-bottom: 40px;
+    background-color: $c-blue-light;
+    a {
+    	font-weight: bold;
+    }
 }
 // Page width/positioning
 .page {
