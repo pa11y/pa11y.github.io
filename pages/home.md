@@ -5,7 +5,6 @@ permalink: /
 ---
 
 
-
 # Pa11y
 
 Here at Pa11y, we think making the web more accessible improves it for everyone. So we publish a range of free and open source tools to help designers and developers make their web pages more accessible:
