@@ -5,6 +5,7 @@ permalink: /
 ---
 
 
+
 # Pa11y
 
 Here at Pa11y, we think making the web more accessible improves it for everyone. So we publish a range of free and open source tools to help designers and developers make their web pages more accessible:
@@ -28,11 +29,12 @@ Here at Pa11y, we think making the web more accessible improves it for everyone.
 
 Here are some useful articles written by Pa11y users and contributors:
 
+  - [Accessibility Testing with Pa11y](https://bitsofco.de/pa11y/)
   - [Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean](https://una.im/pa11y-dash/)
   - [Monitoring Web Accessibility Compliance With Pa11y Dashboard](https://www.lullabot.com/articles/monitoring-web-accessibility-compliance-with-pa11y-dashboard)
-  - [Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
   - [Automated accessibility testing with Travis and Pa11y CI](http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/)
   - [Using actions in Pa11y](http://hollsk.co.uk/posts/view/using-actions-in-pa11y)
+  - [Introduction to Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
 
 
 ## Other ways to use Pa11y
