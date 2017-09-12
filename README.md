@@ -25,6 +25,12 @@ Editing this site
 
 The home page text content can be found in [`pages/home.md`](pages/home.md).
 
+### News feed
+
+The news feed content can be found in the [`_posts` folder](_posts). It's best to copy an existing item and change the date/title.
+
+It's important to note that the date appears in both the file name and the `date` front-matter property.
+
 ### Projects page
 
 The projects page text content can be found in [`pages/projects.md`](pages/projects.md). The actual project list is automatically generated from the organisation repo list.
