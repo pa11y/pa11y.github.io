@@ -9,6 +9,7 @@
 	{% if page.sitemap == false %}<meta name="robots" content="noindex"/>{% endif %}
 
 	<!-- Site links -->
+	<link rel="alternate" type="application/atom+xml" href="/news/feed.xml" title="Pa11y News Feed"/>
 	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
 	<link rel="canonical" href="{{site.github.url}}{{ page.url | replace: 'index.html', '' }}"/>
 

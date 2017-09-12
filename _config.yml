@@ -6,6 +6,11 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 # Files and directories to exclude from compilation
 exclude:
@@ -23,6 +28,9 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
+
+# Post permalink format
+permalink: /news/:year/:month/:title/
 
 # Sass compilation
 sass:

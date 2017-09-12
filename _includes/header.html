@@ -15,6 +15,12 @@
 					</a>
 				</li>
 
+				<li class="site-navigation__item {% if page.url contains '/news/' %}site-navigation__item--current{% endif %}" >
+					<a href="/news/" class="site-navigation__item-link">
+						News
+					</a>
+				</li>
+
 				<li class="site-navigation__item {% if page.url == '/projects/' %}site-navigation__item--current{% endif %}" >
 					<a href="/projects/" class="site-navigation__item-link">
 						Projects

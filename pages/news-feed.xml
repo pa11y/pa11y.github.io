@@ -1,0 +1,30 @@
+---
+layout:
+permalink: /news/feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB">
+
+    <title>Pa11y News Feed</title>
+    <link href="{{site.github.url}}{{page.url}}" rel="self"/>
+    <link href="{{site.github.url}}"/>
+    <updated>{{site.time | date: '%Y-%m-%dT%H:%M:%SZ'}}</updated>
+    <id>{{site.github.url}}{{page.url}}</id>
+    <author>
+        <name>Team Pa11y</name>
+    </author>
+
+    {% for post in site.posts %}
+        {% if post.sitemap != false %}
+            <entry>
+                <title>{{post.title}}</title>
+                <link href="{{site.github.url}}{{page.url | replace: 'index.html', ''}}"/>
+                <published>{{post.date | date: '%Y-%m-%dT%H:%M:%SZ'}}</published>
+                <updated>{{post.date | date: '%Y-%m-%dT%H:%M:%SZ'}}</updated>
+                <id>{{site.github.url}}{{page.url | replace: 'index.html', ''}}</id>
+                <content type="html">{{post.content | xml_escape}}</content>
+            </entry>
+        {% endif %}
+    {% endfor %}
+
+</feed>
