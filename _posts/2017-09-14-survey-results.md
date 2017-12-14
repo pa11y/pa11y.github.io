@@ -52,8 +52,7 @@ Of those who _have_ used Pa11y CLI, we asked how easy/hard it is to set up. None
 
 Once set up, most people find Pa11y CLI easy to use. Those that found it more difficult tend to be doing more complex things with it, and overall people find it more difficult to integrate Pa11y CLI into their existing workflow. 
 
-![Bar chart, scale of 1 (easier) to 5 (harder): How easy did you find it to use the Pa11y CLI? 30% for 1; 25% for 2; 15% for 3; 25% for 4](/asset/image/2017-survey/2-use.png)
-![Bar chart, scale of 1 (easier) to 5 (harder): How easy did you find it to integrate the Pa11y CLI with your workflow? 50% for 1; almost 15% for 2 and 3; 25% for 4](/asset/image/2017-survey/2-integrate.png)
+![Bar chart, scale of 1 (easier) to 5 (harder): How easy did you find it to use the Pa11y CLI and to integrate it with your workflow? 50% for 1; almost 15% for 2 and 3; 25% for 4](/asset/image/2017-survey/2-use-integrate.png)
 
 When we asked “what would make Pa11y CLI easier for you to integrate with your workflow?”, some of our respondents who found Pa11y CLI a little harder to use and to integrate said the following:
 

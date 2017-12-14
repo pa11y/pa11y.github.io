@@ -149,6 +149,9 @@ $c-yellow-light: lighten($c-yellow, 35%);
 
 // News article
 
+.news-article img {
+	max-width: 100%;
+}
 .news-article__title {
 	margin-bottom: 0;
 }
