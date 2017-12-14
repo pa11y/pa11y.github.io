@@ -218,7 +218,7 @@ Not everyone who is interested in accessibility has the kind of skills needed to
 
 Since we launched the survey, we developed the [Actions](https://github.com/pa11y/pa11y#actions) interface, to provide an easier way for people to interact with their pages before running accessibility tests. On release, there was an immediate, dramatic decline in people needing support with interactions. The improvement in quality of life for our users since releasing Actions was so startling that we've decided to retire `beforeScript()` for Pa11y 5. We recognise that this means we'll need to add more Actions over time, and we're actively seeking suggestions. 
 
-In Pa11y 5, we'll be moving from PhantomJS to headless Chrome. The [Pa11y 5.x beta is already available](http://127.0.0.1:4000/news/2017/09/pa11y@5.0.0-beta.1/) for you to try out now. 
+In Pa11y 5, we'll be moving from PhantomJS to headless Chrome. The [Pa11y 5.x beta is already available](http://pa11y.org/news/2017/09/pa11y@5.0.0-beta.1/) for you to try out now. 
 
 Pa11y Dashboard will be eventually retired, and replaced with its successor, codenamed [Sidekick](https://github.com/pa11y/sidekick). One of the things we wanted to do with Sidekick was to change the architecture to remove the reliance on Pa11y Webservice. Instead of a web application backed by a separate webservice, Sidekick will be a single package that includes a REST API. We hope this will be much easier for users to work with when integrating with their usual workflow. 
 
