@@ -2,6 +2,9 @@
 title: The Pa11y User Survey 2017 results
 description: We ran the survey from August 15th to September 11th. Here's what we learned about you!
 date: 2017-12-08
+author:
+  name: Hollie Kay
+  url: http://hollsk.co.uk
 ---
 
 We wanted to find out more about how our users use our tools, what sort of things people think we're doing well, and what sort of things we could do better. So we decided to run a survey to learn how you feel about the four main Pa11y packages. 
