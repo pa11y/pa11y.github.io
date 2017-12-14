@@ -2,6 +2,9 @@
 title: Updating HTML CodeSniffer
 description: An outline of how we deal with HTML CodeSniffer changes.
 date: 2017-09-14
+author:
+  name: Rowan Manning
+  url: http://rowanmanning.com/
 ---
 
 We recently released a version of Pa11y which triggered some discussion over what constitutes a breaking change. The release in question included an update to [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) – the tool that Pa11y uses to find accessibility issues.
