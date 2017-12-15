@@ -2,6 +2,8 @@
 title: Pa11y
 description: Pa11y is your automated accessibility testing pal.
 permalink: /
+redirect_from:
+  - /projects/
 ---
 
 
@@ -22,19 +24,6 @@ Here at Pa11y, we think making the web more accessible improves it for everyone.
     A command-line tool which iterates over a list of web pages and highlights accessibility issues. This is a CLI that's more geared towards use in <abbr title="Continuous Integration">CI</abbr>.
 
 [View all of our open source projects][projects]
-
-
-## Articles
-
-Here are some useful articles written by Pa11y users and contributors:
-
-  - [Accessibility Testing with Pa11y](https://bitsofco.de/pa11y/)
-  - [Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean](https://una.im/pa11y-dash/)
-  - [Monitoring Web Accessibility Compliance With Pa11y Dashboard](https://www.lullabot.com/articles/monitoring-web-accessibility-compliance-with-pa11y-dashboard)
-  - [Automated accessibility testing with Travis and Pa11y CI](http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/)
-  - [Using actions in Pa11y](http://hollsk.co.uk/posts/view/using-actions-in-pa11y)
-  - [Introduction to Accessibility Testing With Pa11y](http://cruft.io/posts/accessibility-testing-with-pa11y/)
-  - [Automating Your Accessibility Tests](https://24ways.org/2017/automating-your-accessibility-tests)
 
 
 ## Other ways to use Pa11y
