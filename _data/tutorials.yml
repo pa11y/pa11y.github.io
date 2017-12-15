@@ -1,0 +1,29 @@
+#
+# This file is used to keep a list of tutorials which appear on
+# the tutorials page.
+#
+
+cli:
+
+  - title: Accessibility Testing with Pa11y
+    url: https://bitsofco.de/pa11y/
+
+  - title: Automated accessibility testing with Travis and Pa11y CI
+    url: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
+
+  - title: Using actions in Pa11y
+    url: http://hollsk.co.uk/posts/view/using-actions-in-pa11y
+
+  - title: Introduction to Accessibility Testing With Pa11y
+    url: http://cruft.io/posts/accessibility-testing-with-pa11y/
+
+  - title: Automating Your Accessibility Tests
+    url: https://24ways.org/2017/automating-your-accessibility-tests
+
+dashboard:
+
+  - title: Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean
+    url: https://una.im/pa11y-dash/
+
+  - title: Monitoring Web Accessibility Compliance With Pa11y Dashboard
+    url: https://www.lullabot.com/articles/monitoring-web-accessibility-compliance-with-pa11y-dashboard

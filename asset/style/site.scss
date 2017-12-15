@@ -126,11 +126,11 @@ $c-yellow-light: lighten($c-yellow, 35%);
 	}
 }
 
-// Repo list
-.repo-list__repo {
-	margin-bottom: $spacing;
+// Tutorial list
+.tutorial-list__tutorial {
+	margin-bottom: $spacing-small;
 }
-.repo-list__repo__description {
+.tutorial-list__tutorial__description {
 	margin-bottom: 0;
 }
 

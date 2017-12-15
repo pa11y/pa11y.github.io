@@ -1,0 +1,13 @@
+
+<ul class="tutorial-list">
+	{% for tutorial in include.tutorials %}
+		<li class="tutorial-list__tutorial">
+			<h3 class="h6 tutorial-list__tutorial__title">
+				<a href="{{tutorial.url}}">{{tutorial.title}}</a>
+			</h3>
+			<p class="tutorial-list__tutorial__description">
+				{{tutorial.description}}
+			</p>
+		</li>
+	{% endfor %}
+</ul>
