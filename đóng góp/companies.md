@@ -8,14 +8,13 @@ permalink: /contributing/companies/
 # Companies
 
 Pa11y is developed and maintained by people from many companies. We're very grateful to the organisations that support us in making Pa11y better, and we'd love for you to join them. There are lots of ways to get involved.
+active-development)
+  #cung cấp thông tin phản hồi
+   #talking-about-pa11y
+  #hysical-space
 
-  - [Active development](#active-development)
-  - [Providing feedback](#providing-feedback)
-  - [Talking about Pa11y](#talking-about-pa11y)
-  - [Physical space](#physical-space)
 
-
-## Active development
+# Active development
 
 The most direct way to contribute to Pa11y is to [write code][contributing-developers]! We're always interested in your solutions to problems or ideas for new features. Donating your developers' time to an Open Source project is a great way to show the world that you care about software quality. It's also a great way for your developers to improve their skills - not just in writing code, but also in technical communication, writing tests and documentation, and understanding different workflows. 
 
@@ -38,6 +37,4 @@ At Pa11y, we want to be transparent and plan in the open. Although our planning 
 
 Our meetings are open, so anyone can come along, and we need high-quality, accessible spaces as meeting locations. If your organisation has space that can meet our needs, please consider hosting a Pa11y meeting! 
 
-
-[pa11y-twitter]: https://twitter.com/pa11yorg
-[contributing-developers]: /contributing/developers/
+/
