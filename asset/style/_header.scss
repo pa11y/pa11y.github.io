@@ -46,6 +46,11 @@
 			padding: 0;
 		}
 
+		&[aria-current="page"], &--current {
+			background-color: $c-yellow-light;
+			color: $c-blue-dark;
+		}
+
 		&:focus {
 			background: $c-yellow;
 			outline: none;
@@ -54,10 +59,6 @@
 		&:hover {
 			background: $c-blue;
 			color: $c-grey-lighter;
-		}
-
-		&[aria-current="page"], &--current {
-			background-color: $c-yellow-light;
 		}
 
 		&--button {
