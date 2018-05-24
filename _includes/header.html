@@ -5,77 +5,75 @@
 		<span class="site-brand__name">Pa11y</span>
 	</a>
 
-	<div class="site-nav" aria-label="Main Navigation">
-		<nav role="navigation">
-			<ul class="site-nav__menu clearfix" role="menubar" aria-controls="st1" >
-				<li class="site-nav__item">
-					<a href="/" class="site-nav__link {% if page.url == '/' %}site-nav__link--current{% endif %}">
-						Home
-					</a>
-				</li>
+	<nav class="site-nav" role="navigation" aria-label="Main Navigation">
+		<ul class="site-nav__menu clearfix">
+			<li class="site-nav__item">
+				<a href="/" class="site-nav__link" {% if page.url == '/' %}aria-current="page"{% endif %}>
+					Home
+				</a>
+			</li>
 
-				<li class="site-nav__item">
-					<a href="/news/" class="site-nav__link {% if page.url contains '/news/' %}site-nav__link--current{% endif %}">
-						News
-					</a>
-				</li>
+			<li class="site-nav__item">
+				<a href="/news/" class="site-nav__link" {% if page.url contains '/news/' %}aria-current="page"{% endif %}>
+					News
+				</a>
+			</li>
 
-				<li class="site-nav__item">
-					<a href="/tutorials/" class="site-nav__link {% if page.url == '/tutorials/' %}site-nav__link--current{% endif %}">
-						Tutorials
-					</a>
-				</li>
+			<li class="site-nav__item">
+				<a href="/tutorials/" class="site-nav__link" {% if page.url == '/tutorials/' %}aria-current="page"{% endif %}>
+					Tutorials
+				</a>
+			</li>
 
-				<li class="site-nav__item site-nav__item--has-submenu" data-js-menu="true">
-					<button class="site-nav__link site-nav__link--button {% if page.url == '/contributing/' %}site-nav__link--current{% endif %}" aria-haspopup="true">
-						Contributing
-					</button>
+			<li class="site-nav__item site-nav__item--has-submenu" data-js-menu="true">
+				<button class="site-nav__link site-nav__link--button {% if page.url == '/contributing/' %}site-nav__link--current{% endif %}" aria-haspopup="true">
+					Contributing
+				</button>
 
-					<ul class="site-nav__menu site-nav__menu--sub" aria-label="submenu">
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing" class="site-nav__link {% if page.url == '/contributing/' %}site-nav__link--current{% endif %}">
-								Overview
-							</a>
-						</li>
+				<ul class="site-nav__menu site-nav__menu--sub" aria-label="submenu">
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing" class="site-nav__link" {% if page.url == '/contributing/' %}aria-current="page"{% endif %}>
+							Overview
+						</a>
+					</li>
 
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing/code-of-conduct/" class="site-nav__link {% if page.url == '/contributing/code-of-conduct/' %}site-nav__link--current{% endif %}">
-								Code of Conduct
-							</a>
-						</li>
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing/code-of-conduct/" class="site-nav__link" {% if page.url == '/contributing/code-of-conduct/' %}aria-current="page"{% endif %}>
+							Code of Conduct
+						</a>
+					</li>
 
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing/communications/" class="site-nav__link {% if page.url == '/contributing/communications/' %}site-nav__link--current{% endif %}">
-								Communications
-							</a>
-						</li>
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing/communications/" class="site-nav__link" {% if page.url == '/contributing/communications/' %}aria-current="page"{% endif %}>
+							Communications
+						</a>
+					</li>
 
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing/designers/" class="site-nav__link {% if page.url == '/contributing/designers/' %}site-nav__link--current{% endif %}">
-								Designers
-							</a>
-						</li>
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing/designers/" class="site-nav__link" {% if page.url == '/contributing/designers/' %}aria-current="page"{% endif %}>
+							Designers
+						</a>
+					</li>
 
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing/developers/" class="site-nav__link {% if page.url == '/contributing/developers/' %}site-nav__link--current{% endif %}">
-								Developers
-							</a>
-						</li>
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing/developers/" class="site-nav__link" {% if page.url == '/contributing/developers/' %}aria-current="page"{% endif %}>
+							Developers
+						</a>
+					</li>
 
-						<li class="site-nav__item site-nav__item--sub">
-							<a href="/contributing/companies/" class="site-nav__link {% if page.url == '/contributing/companies/' %}site-nav__link--current{% endif %}">
-								Companies
-							</a>
-						</li>
-					</ul>
-				</li>
+					<li class="site-nav__item site-nav__item--sub">
+						<a href="/contributing/companies/" class="site-nav__link" {% if page.url == '/contributing/companies/' %}aria-current="page"{% endif %}>
+							Companies
+						</a>
+					</li>
+				</ul>
+			</li>
 
-				<li class="site-nav__item">
-					<a href="/contact/" class="site-nav__link {% if page.url == '/contact/' %}site-nav__link--current{% endif %}">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+			<li class="site-nav__item">
+				<a href="/contact/" class="site-nav__link" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>
+					Contact
+				</a>
+			</li>
+		</ul>
+	</nav>
 </header>

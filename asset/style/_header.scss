@@ -56,7 +56,7 @@
 			color: $c-grey-lighter;
 		}
 
-		&--current {
+		&[aria-current="page"], &--current {
 			background-color: $c-yellow-light;
 		}
 
