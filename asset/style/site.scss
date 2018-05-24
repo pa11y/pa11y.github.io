@@ -40,11 +40,29 @@ $c-yellow: #f39c12;
 $c-yellow-light: lighten($c-yellow, 35%);
 
 
+// Media queries
+// -------------
+
+$min-phone: 480px;
+$min-smalltablet: 600px;
+$min-tablet: 768px;
+$min-laptop: 992px;
+$min-desktop: 1200px;
+$min-hd: 1480px;
+
+$screen-phone: unquote("min-width: #{$min-phone}");
+$screen-smalltablet: unquote("min-width: #{$min-smalltablet}");
+$screen-tablet: unquote("min-width: #{$min-tablet}");
+$screen-laptop: unquote("min-width: #{$min-laptop}");
+$screen-desktop: unquote("min-width: #{$min-desktop}");
+$screen-desktop-lg: unquote("min-width: #{$min-hd}");
+
 // Site Styles
 // -----------
 
 @import "typography";
 @import "header";
+@import "no-js";
 
 // Clearfix mixin
 @mixin clearfix {
@@ -93,19 +111,6 @@ $c-yellow-light: lighten($c-yellow, 35%);
 	width: 60px;
 	height: 60px;
 	margin-left: -8px;
-}
-
-// Site navigation
-.site-navigation {
-	list-style: none;
-	padding-left: 0;
-}
-.site-navigation__subnav {
-	list-style: none;
-	padding-left: $spacing;
-}
-.site-navigation__item--current > a {
-	background-color: $c-yellow-light;
 }
 
 // Site footer
