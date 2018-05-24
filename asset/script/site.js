@@ -29,12 +29,5 @@ if('querySelector' in document
 			activateMenu(this);
 			event.preventDefault();
 		});
-		//clears menu on tab
-		document.addEventListener('keydown', function(event) {
-			if (event.keyCode == 9 && document.querySelector('[data-js-menu]').classList.contains('is-open')) {
-				activateMenu(this.querySelector('button'));
-			};
-		});
-
 	});
 }
