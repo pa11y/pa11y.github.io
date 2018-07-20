@@ -11,6 +11,9 @@ cli:
   - title: Automated accessibility testing with Travis and Pa11y CI
     url: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
 
+  - title: Using Pa11y CI and Drone as accessibility testing gatekeepers
+    url: https://hackernoon.com/using-pa11y-ci-and-drone-as-accessibility-testing-gatekeepers-a8b5a3415227
+
   - title: Using actions in Pa11y
     url: http://hollsk.co.uk/posts/view/using-actions-in-pa11y
 
