@@ -11,7 +11,8 @@ branches:
 
 # Installation
 before_install:
-  - rvm install 2.2.2
+  - rvm install 2.6.3
+  - gem install bundler:2
 install:
   - make install
 
