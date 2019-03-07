@@ -39,3 +39,6 @@ sass:
 
 # Timezone setting
 timezone: Europe/London
+
+plugins:
+  - jemoji
