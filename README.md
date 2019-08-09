@@ -8,13 +8,6 @@ The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa1
 [![Join us on Slack](https://pa11y-slack.herokuapp.com/badge.svg)](https://pa11y-slack.herokuapp.com/)
 
 
----
-
-:sparkles: ☑️ 👩‍🎨 **Hi! We’re working on improving the design and usability of the Pa11y website. You can help us enormously by [filling in our survey](https://forms.gle/ZJzFwbC7DCVT2CNh7). Thanks!**
-
----
-
-
 Running locally
 ---------------
 
