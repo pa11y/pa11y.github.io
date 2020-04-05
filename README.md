@@ -30,9 +30,11 @@ The news feed content can be found in the [`_posts` folder](_posts). It's best t
 
 It's important to note that the date appears in both the file name and the `date` front-matter property.
 
-### Projects page
+You may add authorship details to a post using the `author.name` and `author.url` front-matter properties. Both are optional. The rule of thumb is that generic posts (like version releases/launches etc) should have no author, but more opinion or analysis posts should.
 
-The projects page text content can be found in [`pages/projects.md`](pages/projects.md). The actual project list is automatically generated from the organisation repo list.
+### Tutorials page
+
+The tutorials page text content can be found in [`pages/tutorials.md`](pages/tutorials.md). The actual tutorial information is in [`_data/tutorials.yml`](_data/tutorials.yml); there are instructions at the top of this file.
 
 ### Contributor guides
 
