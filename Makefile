@@ -7,7 +7,7 @@ export PATH := $(NPM_BIN):$(PATH)
 install:
 	@echo "Installing dependencies"
 	@bundle install
-	@npm install pa11y-ci@^0.2
+	@npm install pa11y-ci@^2.4
 
 # Build the site
 build:
