@@ -2,7 +2,7 @@
 # Run with Node.js 4
 language: node_js
 node_js:
-  - '4'
+  - '8'
 
 # Restrict builds on branches
 branches:
