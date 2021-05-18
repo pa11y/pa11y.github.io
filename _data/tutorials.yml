@@ -23,6 +23,9 @@ cli:
   - title: Automating Your Accessibility Tests
     url: https://24ways.org/2017/automating-your-accessibility-tests
 
+  - title: Automated accessibility testing&#58; Leveraging GitHub Actions and pa11y-ci with axe
+    url: https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe
+
 dashboard:
 
   - title: Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean
