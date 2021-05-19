@@ -1,0 +1,34 @@
+
+name: Build and test
+
+on:
+  push:
+    branches: # Run actions when code is committed to these branches
+      - master
+  pull_request:
+    branches: # Run actions when a PR is pushed based on one of these branches
+      - master
+
+jobs:
+  checkout_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code from ${{ github.repository }}
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 8
+      - name: Install node dependencies
+        run: npm ci
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Install Ruby gems
+        run: bundle install
+      - name: Serve Jekyll website
+        run: bundle exec jekyll serve --watch --draftsbundle exec jekyll serve --watch --drafts
+      - name: Test Jekyll website with Pa11y
+        run: npx pa11y-ci --sitemap "http://localhost:4000/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "localhost:4000"
+
