@@ -21,6 +21,7 @@ exclude:
   - Makefile
   - node_modules
   - README.md
+  - vendor
 
 # Extensions to use
 plugins:
@@ -39,5 +40,3 @@ sass:
 
 # Timezone setting
 timezone: Europe/London
-
-exclude: [vendor]
