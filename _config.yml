@@ -23,7 +23,7 @@ exclude:
   - README.md
 
 # Extensions to use
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -39,3 +39,5 @@ sass:
 
 # Timezone setting
 timezone: Europe/London
+
+exclude: [vendor]
