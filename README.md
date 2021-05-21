@@ -4,7 +4,7 @@ The Pa11y Website (WIP)
 
 The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa11y.org/>.
 
-[![Site Accessibility Tests](https://img.shields.io/travis/pa11y/pa11y.github.io.svg?label=site%20accessibility%20tests)](https://travis-ci.org/pa11y/pa11y.github.io)
+[![Build and test](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml)
 
 
 Running locally
