@@ -21,9 +21,10 @@ exclude:
   - Makefile
   - node_modules
   - README.md
+  - vendor
 
 # Extensions to use
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-redirect-from
   - jekyll-sitemap
