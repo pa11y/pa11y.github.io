@@ -1,24 +1,18 @@
-
-The Pa11y Website (WIP)
-=======================
+# The Pa11y Website
 
 The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa11y.org/>.
 
 [![Build and test](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml)
 
-
-Running locally
----------------
+## Running locally
 
 You'll need [Ruby], [Bundler] and [Node.js] installed for this.
 
-  1. Install dependencies: `make install`
-  2. Build and serve the site: `make serve`
-  3. Visit <http://localhost:4000/>
+1. Install dependencies: `make install`
+2. Build and serve the site: `make serve`
+3. Visit <http://localhost:4000/>
 
-
-Editing this site
------------------
+## Editing this site
 
 ### Home page
 
@@ -44,25 +38,19 @@ The contributor guides live in the [`contributing` folder](contributing), these 
 
 The contact page text content can be found in [`pages/contact.md`](pages/contact.md). To add your contact details to this page, edit [`_data/team.yml`](_data/team.yml); there are instructions at the top of this file.
 
-
-Testing
--------
+## Testing
 
 Every page on this site is tested with Pa11y on CI. Pull requests will fail the build if they introduce accessibility errors. You can run Pa11y against a site that's running locally with:
 
-```
+```sh
 make test
 ```
 
+## Licence
 
-Licence
--------
-
-[![CC-BY-NC](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)][license]<br/>
-Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][license].<br/>
-Copyright &copy; 2016–2017, Team Pa11y
-
-
+[![CC-BY-NC](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)][license]  
+Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][license].  
+Copyright &copy; 2016–2021, Team Pa11y
 
 [bundler]: http://bundler.io/
 [contributor-covenant]: http://contributor-covenant.org
