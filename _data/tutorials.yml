@@ -3,7 +3,7 @@
 # the tutorials page.
 #
 
-cli:
+'Pa11y and pa11y-ci':
 
   - title: Accessibility Testing with Pa11y
     url: https://bitsofco.de/pa11y/
@@ -26,7 +26,7 @@ cli:
   - title: Automated accessibility testing&#58; Leveraging GitHub Actions and pa11y-ci with axe
     url: https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe
 
-dashboard:
+'Pa11y Dashboard':
 
   - title: Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean
     url: https://una.im/pa11y-dash/
