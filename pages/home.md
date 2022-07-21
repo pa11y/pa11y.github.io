@@ -33,7 +33,7 @@ If you're interested in helping us out, we'd love to hear from you. Head on over
 
 [contributors]: /contributing/
 [pa11y]: https://github.com/pa11y/pa11y
-[pa11y ci]: https://github.com/pa11y/ci
-[pa11y dashboard]: https://github.com/pa11y/dashboard
-[pa11y webservice]: https://github.com/pa11y/webservice
-[projects]: /projects/
+[pa11y ci]: https://github.com/pa11y/pa11y-ci
+[pa11y dashboard]: https://github.com/pa11y/pa11y-dashboard
+[pa11y webservice]: https://github.com/pa11y/pa11y-webservice
+[projects]: https://github.com/pa11y
