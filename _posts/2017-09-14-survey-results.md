@@ -228,7 +228,7 @@ Pa11y Dashboard will be eventually retired, and replaced with its successor, cod
 
 ## Conclusions
 
-We didn't encounter any major surprises - our Github issues lists does a good job of showing us what the main preoccupations of our users are. We know that our documentation doesn't always give users what they need, and we're committed to improving that. 
+We didn't encounter any major surprises - our GitHub Issues lists do a good job of showing us what the main preoccupations of our users are. We know that our documentation doesn't always give users what they need, and we're committed to improving that. 
 
 We're pleased to see that most of our respondents like Pa11y and find that it works well for their purposes. Over the next year, we want to make it even better, and we'd love to have you along for the journey 😊 
 

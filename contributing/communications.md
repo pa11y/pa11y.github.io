@@ -93,7 +93,7 @@ The Twitter account should be low-noise, mostly announcements about new projects
 
 You can however respond to user questions/requests. In most cases, the appropriate action will be to point them at the correct documentation or ask them nicely to create a GitHub issue if they've found a problem.
 
-The Twitter may also be used to bring certain GitHub issues or new web pages to the attention of a wider audience. This is useful for gathering feedback.
+The Twitter may also be used to bring certain GitHub Issues or new web pages to the attention of a wider audience. This is useful for gathering feedback.
 
 
 ## Code of conduct
