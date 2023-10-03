@@ -11,7 +11,7 @@ on:
 
 jobs:
   checkout_and_test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout code from ${{ github.repository }}
         uses: actions/checkout@v2
