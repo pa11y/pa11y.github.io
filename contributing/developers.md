@@ -19,7 +19,7 @@ So you'd like to contribute some code, report a bug, or request a feature? You'r
 
 ## Reporting bugs
 
-We like it when people report bugs in our projects, and would definitely rather _know_ about them than be left in the dark. We use GitHub issues for bug tracking. When filing a bug report, there are some guidelines you can follow which will help us quickly resolve your issue:
+We like it when people report bugs in our projects, and would definitely rather _know_ about them than be left in the dark. We use GitHub Issues for bug tracking. When filing a bug report, there are some guidelines you can follow which will help us quickly resolve your issue:
 
   - ### Check if the bug has already been reported
     You can do this by searching the repository. This gives us more time to focus on existing bugs, and it might help you find a solution more quickly.

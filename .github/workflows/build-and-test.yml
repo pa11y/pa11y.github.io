@@ -3,15 +3,15 @@ name: Build and test
 
 on:
   push:
-    branches: # Run actions when code is committed to these branches
+    branches:
       - master
   pull_request:
-    branches: # Run actions when a PR is pushed based on one of these branches
+    branches:
       - master
 
 jobs:
   checkout_and_test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout code from ${{ github.repository }}
         uses: actions/checkout@v2
@@ -31,4 +31,3 @@ jobs:
         run: make serve &
       - name: Test Jekyll website with Pa11y
         run: make test
-

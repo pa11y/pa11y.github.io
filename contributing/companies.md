@@ -22,7 +22,7 @@ The most direct way to contribute to Pa11y is to [write code][contributing-devel
 
 ## Providing feedback
 
-Pa11y needs to be able to meet the needs of the companies that use it. You can help us meet your organisation's needs by telling us what works and what doesn't. Although we can't make Pa11y tailored to your organisation, with your help we can make it more broadly useful to a wider range of companies, including yours. We want to hear about how you use Pa11y, and about how you'd like to use it. We use Github issues to track bugs, feature requests, and discussions, so please get involved. 
+Pa11y needs to be able to meet the needs of the companies that use it. You can help us meet your organisation's needs by telling us what works and what doesn't. Although we can't make Pa11y tailored to your organisation, with your help we can make it more broadly useful to a wider range of companies, including yours. We want to hear about how you use Pa11y, and about how you'd like to use it. We use GitHub Issues to track bugs, feature requests, and discussions, so please get involved. 
 
 
 ## Talking about Pa11y

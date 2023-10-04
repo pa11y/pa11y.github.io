@@ -7,7 +7,7 @@ permalink: /contact/
 
 # Contact team Pa11y
 
-To log bugs, ask for features, or get support, please use Github issues, or join our Slack channel. 
+To log bugs, ask for features, or get support, please use GitHub Issues, or join our Slack channel. 
 
   - [Join us on Slack][pa11y-slack]
   - [@pa11yorg on Twitter][pa11y-twitter]
