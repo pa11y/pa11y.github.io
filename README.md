@@ -66,6 +66,28 @@ Every page on this site is tested in CI using Pa11y. Pull requests will fail the
 make test
 ```
 
+### Testing the GitHub Actions workflows
+
+This project's `build` job (but not currently the `test` job) can be tested locally using [nektos/act](https://github.com/nektos/act), which can be installed with Homebrew:
+
+```sh
+brew install act
+```
+
+```sh
+# Run the `build` job locally
+act --job build --container-architecture linux/amd64
+```
+
+```sh
+# Validate the workflow's syntax, without running it
+act --dryrun --container-architecture linux/amd64
+```
+
+Notes:
+- The `--container-architecture` flag ensures `act` will be able to install the action `setup-ruby` on an ARM-based system. It may be omitted if you're using an Intel architecture.
+- Add `--verbose` for more output.
+
 ## Licence
 
 [![CC-BY-NC](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)][license]  
