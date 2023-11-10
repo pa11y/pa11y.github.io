@@ -6,11 +6,31 @@ The Pa11y website, [pa11y.org] is built with [Jekyll] and hosted on GitHub Pages
 
 ## Running locally
 
-You'll need [Ruby], [Bundler] and [Node.js] installed for this.
+### Setting up your system
 
-1. Install dependencies: `make install`
-2. Build and serve the site: `make serve`
-3. Visit <http://localhost:4000/>
+This project uses [Ruby], its packaging helper [Bundler], and [Node.js].
+
+Here's one way to install each of these if you don't have them already. This assumes you're using macOS or Linux, with Homebrew or Linuxbrew installed. It will install nvm, chruby, and ruby-install.
+
+```sh
+# Install Ruby and Bundler
+brew install ruby-install chruby
+ruby-install "$(cat .ruby-version)"
+gem install bundler
+
+# Install Node and update npm
+brew install nvm
+nvm install
+nvm install-latest-npm
+```
+
+### Serving the site from your machine
+
+```sh
+make install
+make serve
+open http://localhost:4000
+```
 
 ## Editing this site
 
