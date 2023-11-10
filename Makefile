@@ -1,6 +1,6 @@
 # Use `make --quiet` to suppress command echoing.
 
-HOST = 127.0.0.1:4000
+HOST = localhost:4000
 NPM_BIN = ./node_modules/.bin
 export PATH := $(NPM_BIN):$(PATH)
 
