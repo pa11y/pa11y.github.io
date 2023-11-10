@@ -1,8 +1,8 @@
 # The Pa11y Website
 
-The Pa11y website is built with [Jekyll] and hosted on GitHub Pages. <http://pa11y.org/>.
+The Pa11y website, [pa11y.org] is built with [Jekyll] and hosted on GitHub Pages.
 
-[![Build and test](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml)
+[![Build status][shield-build]][info-build]
 
 ## Running locally
 
@@ -32,7 +32,7 @@ The tutorials page text content can be found in [`pages/tutorials.md`](pages/tut
 
 ### Contributor guides
 
-The contributor guides live in the [`contributing` folder](contributing), these pages are Markdown files. Edit the others at will, but the Code of Conduct should not be edited – we use the [Contributor Covenant][contributor-covenant] without modifications.
+The contributor guides live in the [`contributing` folder](contributing) as Markdown files. Edit the others at will, but the Code of Conduct should not be edited – we use the [Contributor Covenant][contributor-covenant] without modifications.
 
 ### Contact page
 
@@ -40,7 +40,7 @@ The contact page text content can be found in [`pages/contact.md`](pages/contact
 
 ## Testing
 
-Every page on this site is tested with Pa11y on CI. Pull requests will fail the build if they introduce accessibility errors. You can run Pa11y against a site that's running locally with:
+Every page on this site is tested in CI using Pa11y. Pull requests will fail the build if they introduce accessibility errors. You can run Pa11y against a site that's running locally with:
 
 ```sh
 make test
@@ -52,9 +52,13 @@ make test
 Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][license].  
 Copyright &copy; 2016–2023, Team Pa11y
 
+[pa11y.org]: https://pa11y.org
 [bundler]: http://bundler.io/
 [contributor-covenant]: http://contributor-covenant.org
 [jekyll]: http://jekyllrb.com/
 [license]: http://creativecommons.org/licenses/by-nc/4.0/
 [node.js]: https://nodejs.org/
 [ruby]: https://www.ruby-lang.org/en/
+
+[info-build]: https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml
+[shield-build]: https://github.com/pa11y/pa11y.github.io/actions/workflows/build-and-test.yml/badge.svg
