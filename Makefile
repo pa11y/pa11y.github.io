@@ -1,6 +1,7 @@
 # Use `make --quiet` to suppress all command echoing.
 
 HOST = localhost:4000
+URL = http://$(HOST)
 NPM_BIN = ./node_modules/.bin
 export PATH := $(NPM_BIN):$(PATH)
 
@@ -22,5 +23,9 @@ serve:
 	bundle exec jekyll serve --detach --watch --drafts
 
 test:
-	pa11y-ci --sitemap "http://$(HOST)/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "$(HOST)"
 	@echo "Testing site with Pa11y"
+	pa11y-ci --sitemap "$(URL)/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "$(HOST)"
+
+browse:
+	@echo "Opening in default browser"
+	@(open "$(URL)" || xdg-open "$(URL)") 2>/dev/null
