@@ -52,7 +52,7 @@ The tutorials page text content can be found in [`pages/tutorials.md`](pages/tut
 
 ### Contributor guides
 
-The contributor guides live in the [`contributing` folder](contributing) as Markdown files. Edit the others at will, but the Code of Conduct should not be edited – we use the [Contributor Covenant][contributor-covenant] without modifications.
+The contributor guides live in the [`contributing` folder](contributing) as Markdown files. Edit the others at will, but the Code of Conduct should not be edited - we use the [Contributor Covenant][contributor-covenant] without modifications.
 
 ### Contact page
 
@@ -85,6 +85,7 @@ act --dryrun --container-architecture linux/amd64
 ```
 
 Notes:
+
 - The `--container-architecture` flag ensures `act` will be able to install the action `setup-ruby` on an ARM-based system. It may be omitted if you're using an Intel architecture.
 - Add `--verbose` for more output.
 
@@ -92,7 +93,7 @@ Notes:
 
 [![CC-BY-NC](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)][license]  
 Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][license].  
-Copyright &copy; 2016–2023, Team Pa11y
+Copyright &copy; 2016-2023, Team Pa11y
 
 [pa11y.org]: https://pa11y.org
 [bundler]: http://bundler.io/
