@@ -171,7 +171,7 @@ All of our projects are versioned using [Semantic Versioning] (except for this s
 
   9. **Publish**. If the project is on [npm] then you'll need to have access, and run `npm publish`.
 
-  10. **Announce**. You should announce that a new release has been made on the [Pa11y Twitter account][twitter]. Follow the style of previous tweets, but feel free to give it some personality!
+  10. **Announce**. You should announce that a new release has been made on the [Pa11y news page][news]. Follow the style of previous announcements, but feel free to give it some personality!
 
   11. **Celebrate**. :tada::beer::cake::cocktail:
 
@@ -194,4 +194,4 @@ All of our projects are versioned using [Semantic Versioning] (except for this s
 [reference-links]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 [sinon]: http://sinonjs.org/
 [semantic versioning]: http://semver.org/
-[twitter]: /contributing/communications/#twitter
+[news]: https://pa11y.org/news/

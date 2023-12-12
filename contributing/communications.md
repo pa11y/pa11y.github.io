@@ -7,11 +7,10 @@ permalink: /contributing/communications/
 
 # Communications
 
-Hello, so you're interested in helping out with our communications? We're pretty pleased about that. This guide covers general writing style as well as everything you need to start talking to our users on [GitHub](#github) and [Twitter](#twitter). We also cover how to [respond to Code of Conduct issues](#code-of-conduct).
+Hello, so you're interested in helping out with our communications? We're pretty pleased about that. This guide covers general writing style as well as everything you need to start talking to our users. We also cover how to [respond to Code of Conduct issues](#code-of-conduct).
 
   - [Writing style](#writing-style)
   - [GitHub](#github)
-  - [Twitter](#twitter)
   - [Code of conduct](#code-of-conduct)
 
 
@@ -80,22 +79,6 @@ Sometimes we have to say no to a feature request. That's difficult. Sometimes we
 
 You should always explain _why_ you're saying no, this also gives you a point of reference if a feature request comes up again in future.
 
-
-## Twitter
-
-### Access
-
-You can get access to the [Pa11y Twitter account][pa11y-twitter] through [Tweetdeck], and currently [Rowan Manning](https://twitter.com/rowanmanning) is the right person to ask. DM him on Twitter. We don't add _everyone_ to the Twitter account, but we're pretty trusting – if you've contributed in other areas and are getting involved in the project then it'll be fine.
-
-### How/What to Tweet
-
-The Twitter account should be low-noise, mostly announcements about new projects and new versions of existing ones (we're looking into automating this). The Pa11y Twitter account should only ever retweet articles _about_ Pa11y, not feedback and messages from users.
-
-You can however respond to user questions/requests. In most cases, the appropriate action will be to point them at the correct documentation or ask them nicely to create a GitHub issue if they've found a problem.
-
-The Twitter may also be used to bring certain GitHub Issues or new web pages to the attention of a wider audience. This is useful for gathering feedback.
-
-
 ## Code of conduct
 
 Responding to [Code of Conduct][code-of-conduct] issues and violations is _really_ important. Not only do we need to do so promptly, but we need to make sure that core contributors are prepared to take necessary action.
@@ -129,11 +112,11 @@ When you've come to a decision on whether the reported behavior violates the Cod
 
   - A private reprimand to the individual(s) involved. In this case, all core team members involved in the decision should be copied in.
 
-  - A public reprimand. This should happen in the same place as the violation, e.g. Twitter, Slack, GitHub.
+  - A public reprimand. This should happen in the same place as the violation, e.g. Slack, GitHub.
 
   - An imposed vacation (i.e. asking someone to "take a week off" from a the GitHub repos, Slack, etc.). You should communicate this "vacation" to the individual(s). They'll be asked to take this vacation voluntarily, but if they don't agree then a temporary ban may be imposed to enforce this vacation.
 
-  - A permanent or temporary ban from some or all project spaces (Twitter, Slack, GitHub, etc.). You should maintain records of all such bans so that they may be reviewed in the future and extended to any new project spaces.
+  - A permanent or temporary ban from some or all project spaces (Slack, GitHub, etc.). You should maintain records of all such bans so that they may be reviewed in the future and extended to any new project spaces.
 
   - A request for a public or private apology. You may attach "strings" to this request, e.g. you may ask a violator to apologize in order to retain their membership on Slack.
 

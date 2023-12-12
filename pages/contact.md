@@ -7,10 +7,9 @@ permalink: /contact/
 
 # Contact team Pa11y
 
-To log bugs, ask for features, or get support, please use GitHub Issues, or join our Slack channel. 
+To log bugs, ask for features, or get support, please use GitHub Issues, or join our Slack channel.
 
   - [Join us on Slack][pa11y-slack]
-  - [@pa11yorg on Twitter][pa11y-twitter]
   - [@pa11y on GitHub][pa11y-github]
 
 
@@ -20,7 +19,7 @@ If you need to contact us for another reason, for example:
   - If you wish to discuss an issue before taking it public
   - If you need to report a violation of [our code of conduct][code-of-conduct]
 
-You can contact any one of the core team members listed below. Please don't log support requests with us this way! 
+You can contact any one of the core team members listed below. Please don't log support requests with us this way!
 
 
 ## Team members
@@ -40,4 +39,3 @@ members are stored in `_data/team.yml`.
 [code-of-conduct]: /contributing/code-of-conduct/
 [pa11y-github]: https://github.com/pa11y
 [pa11y-slack]: https://join.slack.com/t/pa11y/shared_invite/zt-dd7shh06-hz1I13DDJGyhgphrLxTxuw
-[pa11y-twitter]: https://twitter.com/pa11yorg
