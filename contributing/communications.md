@@ -132,6 +132,4 @@ You must never reveal information about a reporter outside of the group you orig
 [contact]: /contact/
 [hemingway]: http://www.hemingwayapp.com/
 [pa11y-github]: https://github.com/pa11y
-[pa11y-twitter]: https://twitter.com/pa11yorg
-[tweetdeck]: https://tweetdeck.twitter.com/
 [writing-well]: http://writersdiet.com/?page_id=16
