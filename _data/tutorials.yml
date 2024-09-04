@@ -14,6 +14,9 @@ cli:
   - title: Using Pa11y CI and Drone as accessibility testing gatekeepers
     url: https://hackernoon.com/using-pa11y-ci-and-drone-as-accessibility-testing-gatekeepers-a8b5a3415227
 
+  - title: A step-by-step Web Accesibility Testing guide with pa11y
+    url: https://razvanvancea.ro/blog/2024/09/04/web-accessibility-a-step-by-step-guide-to-testing-with-pa11y
+
   - title: Introduction to Accessibility Testing With Pa11y
     url: http://cruft.io/posts/accessibility-testing-with-pa11y/
 
