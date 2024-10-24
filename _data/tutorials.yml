@@ -15,7 +15,7 @@ cli:
     url: https://hackernoon.com/using-pa11y-ci-and-drone-as-accessibility-testing-gatekeepers-a8b5a3415227
 
   - title: Using actions in Pa11y
-    url: http://hollsk.co.uk/posts/view/using-actions-in-pa11y
+    url: https://github.com/pa11y/pa11y?tab=readme-ov-file#actions
 
   - title: Introduction to Accessibility Testing With Pa11y
     url: http://cruft.io/posts/accessibility-testing-with-pa11y/
