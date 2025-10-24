@@ -2,7 +2,7 @@
   "private": true,
   "license": "CC-BY-NC",
   "engines": {
-    "node": ">=16",
+    "node": ">=20",
     "npm": ">=7"
   },
   "devDependencies": {
