@@ -1,5 +1,11 @@
 {
+  "private": true,
+  "license": "CC-BY-NC",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=7"
+  },
   "devDependencies": {
-    "pa11y-ci": "^2.4.1"
+    "pa11y-ci": "^4.0.1"
   }
 }
