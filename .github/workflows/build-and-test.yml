@@ -15,7 +15,7 @@ jobs:
       - run: make build
 
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
