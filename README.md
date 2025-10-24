@@ -93,7 +93,7 @@ Notes:
 
 [![CC-BY-NC](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)][license]  
 Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][license].  
-Copyright &copy; 2016-2023, Team Pa11y
+Copyright &copy; 2016-2025, Team Pa11y
 
 [pa11y.org]: https://pa11y.org
 [bundler]: http://bundler.io/
