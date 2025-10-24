@@ -22,7 +22,7 @@ serve:
 
 test:
 	@echo "Testing site with Pa11y"
-	npx --no pa11y-ci -- --sitemap "$(URL)/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "$(HOST)"
+	npx --yes pa11y-ci -- --sitemap "$(URL)/sitemap.xml" --sitemap-find "(pa11y.org|pa11y.github.io)/pa11y" --sitemap-replace "$(HOST)"
 
 browse:
 	@echo "Opening in default browser"
