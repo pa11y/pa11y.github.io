@@ -4,12 +4,11 @@
 #
 
 cli:
-
   - title: Accessibility Testing with Pa11y
     url: https://bitsofco.de/pa11y/
 
   - title: Automated accessibility testing with Travis and Pa11y CI
-    url: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
+    url: https://cruft.io/posts/2017-03-09-automated-accessibility-testing-node-travis-ci-pa11y/
 
   - title: Using Pa11y CI and Drone as accessibility testing gatekeepers
     url: https://hackernoon.com/using-pa11y-ci-and-drone-as-accessibility-testing-gatekeepers-a8b5a3415227
@@ -18,7 +17,7 @@ cli:
     url: https://github.com/pa11y/pa11y?tab=readme-ov-file#actions
 
   - title: Introduction to Accessibility Testing With Pa11y
-    url: http://cruft.io/posts/accessibility-testing-with-pa11y/
+    url: https://cruft.io/posts/2014-03-11-accessibility-testing-with-pa11y/
 
   - title: Automating Your Accessibility Tests
     url: https://24ways.org/2017/automating-your-accessibility-tests
@@ -27,7 +26,6 @@ cli:
     url: https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe
 
 dashboard:
-
   - title: Setting up An Accessibility Dashboard from Scratch with Pa11y on DigitalOcean
     url: https://una.im/pa11y-dash/
 
