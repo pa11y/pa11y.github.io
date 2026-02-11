@@ -1,19 +1,21 @@
+// ===========================================
+// No-JS Fallback Styles
+// ===========================================
+
 .no-js {
-    .site-nav__item--has-submenu {
-        &:hover {
-            .site-nav__menu--sub {
-                display: block;
-            }
+  .site-nav__item--has-submenu {
+    &:hover {
+      .site-nav__menu--sub {
+        display: block;
+      }
 
-            .site-nav__link--button {
-                background: $c-blue;
-                color: $c-grey-lighter;
+      .site-nav__link--button {
+        color: var(--color-text-primary);
 
-                &:after {
-                    background-image: url(/asset/image/svg/arrow-down-white.svg);
-                    transform: rotate(-180deg);
-                }
-            }
+        &::after {
+          transform: translateY(-50%) rotate(-180deg);
         }
+      }
     }
+  }
 }

@@ -1,33 +1,33 @@
-
+// ===========================================
+// Menu Toggle Functionality
+// ===========================================
 
 if('querySelector' in document
      && 'localStorage' in window
      && 'addEventListener' in window) {
 
-	document.querySelector('body').classList.remove('no-js');
+  document.querySelector('body').classList.remove('no-js');
 
-	// Javascript mustard cut
+  var menuItems = document.querySelectorAll('[data-js-menu]');
 
-	var menuItems = document.querySelectorAll('[data-js-menu]');
+  var activateMenu = function (el) {
+    var classList = el.parentNode.classList;
 
-	var activateMenu = function (el) {
-		var classList = el.parentNode.classList;
+    if (classList.contains("site-nav__item--has-submenu")) {
+      if (!classList.contains('is-open')) {
+        classList.add('is-open');
+        el.setAttribute('aria-expanded', "true");
+      } else {
+        classList.remove('is-open');
+        el.setAttribute('aria-expanded', "false");
+      }
+    }
+  };
 
-		if (classList.contains("site-nav__item--has-submenu")) {
-			if (!classList.contains('is-open')) {
-				classList.add('is-open');
-				el.setAttribute('aria-expanded', "true");
-			} else {
-				classList.remove('is-open');
-				el.setAttribute('aria-expanded', "false");
-			}
-		}
-	};
-
-	Array.prototype.forEach.call(menuItems, function(el, i) {
-		el.querySelector('button').addEventListener("click",  function(event) {
-			activateMenu(this);
-			event.preventDefault();
-		});
-	});
+  Array.prototype.forEach.call(menuItems, function(el, i) {
+    el.querySelector('button').addEventListener("click",  function(event) {
+      activateMenu(this);
+      event.preventDefault();
+    });
+  });
 }

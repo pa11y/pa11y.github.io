@@ -1,0 +1,31 @@
+// ===========================================
+// Theme - Dark Modern
+// ===========================================
+
+:root {
+  --color-bg: #000000;
+  --color-bg-raised: #0a0a0a;
+  --color-bg-card: #111111;
+  --color-bg-card-hover: #1a1a1a;
+  --color-bg-subtle: #0a0a0a;
+
+  --color-text: #ededed;
+  --color-text-secondary: #888888;
+  --color-text-muted: #555555;
+
+  --color-accent: #8ab4f8;
+  --color-accent-hover: #aecbfa;
+
+  --color-border: #222222;
+  --color-border-light: #1a1a1a;
+
+  --color-link: #8ab4f8;
+  --color-link-hover: #aecbfa;
+  --color-link-visited: #c58af9;
+
+  --color-focus: rgba(138, 180, 248, 0.4);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}

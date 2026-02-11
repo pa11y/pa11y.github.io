@@ -1,159 +1,224 @@
+// ===========================================
+// Typography Styles
+// ===========================================
 
-// Base typographic styles
-// -----------------------
-
-// Font basics
-@mixin body-typography {
-	font-family: $font-family;
-	font-size: $font-size;
-	line-height: 1.563;
-	color: $c-grey-dark;
-}
 body, .reset-type {
-	@include body-typography;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // Line spacing
 blockquote, caption, dl, figure, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, hr, ol, p, pre, table, ul {
-	margin-top: 0;
-	margin-bottom: $spacing;
+  margin-top: 0;
+  margin-bottom: $spacing;
 }
 caption {
-	margin-bottom: $spacing-small;
+  margin-bottom: $spacing-small;
 }
 ol, ul {
-	ol, ul {
-		margin-bottom: 0;
-	}
+  ol, ul {
+    margin-bottom: 0;
+  }
 }
 
 // Headings
-caption, dt, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, th {
-	font-weight: normal;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: $font-weight-medium;
+  line-height: $line-height-tight;
+  letter-spacing: $letter-spacing-tight;
+  color: var(--color-text-primary);
 }
+
 li {
-	caption, dt, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, th {
-		margin-bottom: 0;
-	}
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 0;
+  }
 }
+
 h6, .h6 {
-	font-size: $font-size;
+  font-size: $font-size;
 }
 h5, .h5 {
-	font-size: $font-size + 2px;
+  font-size: $font-size-lg;
 }
 h4, .h4 {
-	font-size: $font-size + 4px;
+  font-size: $font-size-xl;
 }
 h3, .h3 {
-	font-size: $font-size + 6px;
+  font-size: $font-size-2xl;
 }
 h2, .h2 {
-	margin-top: $spacing-large;
-	padding-bottom: $spacing-rule;
-	font-size: $font-size + 8px;
-	border-bottom: $spacing-rule solid $c-grey-light;
+  margin-top: $spacing-large * 1.5;
+  padding-bottom: $spacing-small;
+  font-size: $font-size-2xl;
+  border-bottom: 1px solid var(--color-border-light);
 }
 h1, .h1 {
-	font-size: $font-size + 10px;
+  margin-bottom: $spacing-large;
+  font-size: $font-size-3xl;
+  font-weight: $font-weight-normal;
+
+  @media ($screen-tablet) {
+    font-size: $font-size-4xl;
+  }
 }
 
 // Lists
 dt {
-	font-weight: bold;
+  font-weight: $font-weight-medium;
+  color: var(--color-text-primary);
 }
 dd {
-	padding-left: $spacing;
-	margin-left: 0;
-	margin-bottom: $spacing-small;
+  padding-left: $spacing;
+  margin-left: 0;
+  margin-bottom: $spacing-small;
+  color: var(--color-text-secondary);
+}
+
+ul, ol {
+  padding-left: $spacing + $spacing-small;
+
+  li {
+    margin-bottom: $spacing-small / 2;
+  }
+
+  ul, ol {
+    margin-top: $spacing-small / 2;
+  }
 }
 
 // Tables
 table {
-	max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $spacing;
+}
+th, td {
+  padding: $spacing-small $spacing;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
 }
 th {
-	text-align: left;
-	font-weight: bold;
+  font-weight: $font-weight-medium;
+  color: var(--color-text-primary);
+  background: var(--color-bg-secondary);
 }
 caption {
-	font-weight: bold;
-	text-align: left;
+  font-weight: $font-weight-medium;
+  text-align: left;
 }
 
 // Links
 a {
-	color: $c-blue-dark;
-	&:visited {
-		color: $c-purple-dark;
-	}
+  color: var(--color-link);
+  text-decoration: none;
+
+  &:visited {
+    color: var(--color-link-visited);
+  }
+
+  &:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: 2px solid var(--color-focus-ring);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
 }
 
 // Block-quotes
 blockquote {
-	margin-left: $spacing;
-	margin-right: 0;
-	padding-left: $spacing;
-	border-left: $spacing-rule * 2 solid $c-grey-light;
+  margin-left: 0;
+  margin-right: 0;
+  padding: $spacing;
+  padding-left: $spacing + 4px;
+  background: var(--color-bg-secondary);
+  border-left: 3px solid var(--color-accent-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-style: italic;
+  color: var(--color-text-secondary);
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // Text-level semantics
-abbr {
-	cursor: help;
+abbr[title] {
+  cursor: help;
+  text-decoration: underline dotted;
 }
 cite {
-	font-style: italic;
+  font-style: italic;
 }
 figcaption, small, sub, sup {
-	font-size: $font-size-small;
+  font-size: $font-size-small;
+}
+small {
+  color: var(--color-text-muted);
 }
 mark {
-	background-color: $c-yellow-light;
+  padding: 1px 4px;
+  background-color: var(--color-accent-secondary-light);
+  border-radius: var(--radius-sm);
 }
 q {
-	font-style: italic;
-	&:before {
-		content: "“";
-	}
-	&:after {
-		content: "”";
-	}
+  font-style: italic;
+  &:before {
+    content: "\201C";
+  }
+  &:after {
+    content: "\201D";
+  }
 }
 
 // Rules
 hr {
-	height: 0;
-	border: none;
-	border-top: $spacing-rule solid $c-grey-light;
-	color: $c-grey-light;
+  height: 0;
+  margin: $spacing-large 0;
+  border: none;
+  border-top: 1px solid var(--color-border);
 }
 
 // Figures
 figure {
-	margin-left: 0;
-	margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-// Inline code blocks
+// Inline code
 code {
-	padding: 3px 5px;
-	background-color: $c-grey-light;
-	border-radius: $spacing-rule;
-	font-family: $font-family-mono;
+  padding: 2px 6px;
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  background-color: var(--color-bg-code);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-primary);
 }
 
 // Code blocks
 pre {
-	overflow: hidden;
-	code {
-		display: block;
-		padding: $spacing-small;
-		background-color: $c-grey-dark;
-		border: solid $spacing-rule $c-grey;
-		color: #dedede;
-		overflow: auto;
-	}
-	pre, table {
-		margin: 0;
-	}
+  overflow: hidden;
+  border-radius: var(--radius-md);
+
+  code {
+    display: block;
+    padding: $spacing;
+    background-color: var(--color-code-bg);
+    border: 1px solid var(--color-border);
+    color: var(--color-code-text);
+    overflow-x: auto;
+    border-radius: var(--radius-md);
+    font-size: $font-size-small;
+    line-height: $line-height;
+  }
 }

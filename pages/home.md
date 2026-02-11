@@ -6,34 +6,38 @@ redirect_from:
   - /projects/
 ---
 
+<section class="hero">
+	<h1 class="hero__title">Your automated accessibility testing pal</h1>
+	<p class="hero__subtitle">Free and open source tools to help designers and developers make the web more accessible for everyone.</p>
+	<div class="hero__actions">
+		<a href="https://github.com/pa11y/pa11y" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Get Started</a>
+		<a href="https://github.com/pa11y" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+	</div>
+</section>
 
-# Pa11y
+<section class="section">
+	<h2 class="section__title">Tools</h2>
+	<div class="card-grid">
+		<a href="https://github.com/pa11y/pa11y" class="card" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">Pa11y</h3>
+			<p class="card__desc">A command-line interface which loads web pages and highlights any accessibility issues it finds. Useful for when you want to run a one-off test against a web page.</p>
+		</a>
+		<a href="https://github.com/pa11y/pa11y-dashboard" class="card" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">Pa11y Dashboard</h3>
+			<p class="card__desc">A web dashboard which automatically tests web pages for accessibility issues daily. Graphs help you track improvements and regressions over time.</p>
+		</a>
+		<a href="https://github.com/pa11y/pa11y-webservice" class="card" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">Pa11y Webservice</h3>
+			<p class="card__desc">The JSON-based webservice that backs Pa11y Dashboard. Build your own dashboard-like front end, or repurpose the data.</p>
+		</a>
+		<a href="https://github.com/pa11y/pa11y-ci" class="card" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">Pa11y CI</h3>
+			<p class="card__desc">A command-line tool which iterates over a list of web pages and highlights accessibility issues. Geared towards use in <abbr title="Continuous Integration">CI</abbr> pipelines.</p>
+		</a>
+	</div>
+</section>
 
-Here at Pa11y, we think making the web more accessible improves it for everyone. So we publish a range of free and open source tools to help designers and developers make their web pages more accessible:
-
-  - ### [Pa11y]
-    A command-line interface which loads web pages and highlights any accessibility issues it finds. Useful for when you want to run a one-off test against a web page.
-
-  - ### [Pa11y Dashboard]
-    A web dashboard which automatically tests web pages for accessibility issues daily. Graphs help you track improvements and regressions over time. Useful for non-developers to see how your sites perform.
-
-  - ### [Pa11y Webservice]
-    The JSON-based webservice that backs Pa11y Dashboard. Useful if you want to build your own dashboard-like front end, or repurpose the data.
-
-  - ### [Pa11y CI]
-    A command-line tool which iterates over a list of web pages and highlights accessibility issues. This is a CLI that's more geared towards use in <abbr title="Continuous Integration">CI</abbr>.
-
-[View all of our open source projects][projects]
-
-
-## Get involved
-
-If you're interested in helping us out, we'd love to hear from you. Head on over to [our contributors guide][contributors] to get started!
-
-
-[contributors]: /contributing/
-[pa11y]: https://github.com/pa11y/pa11y
-[pa11y ci]: https://github.com/pa11y/pa11y-ci
-[pa11y dashboard]: https://github.com/pa11y/pa11y-dashboard
-[pa11y webservice]: https://github.com/pa11y/pa11y-webservice
-[projects]: https://github.com/pa11y
+<section class="section">
+	<h2 class="section__title">Get involved</h2>
+	<p class="section__desc">Interested in helping out? We'd love to hear from you. Head on over to <a href="/contributing/">our contributors guide</a> to get started.</p>
+</section>
